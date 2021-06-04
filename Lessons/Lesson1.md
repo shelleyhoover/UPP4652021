@@ -3,7 +3,7 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/Syllabus-Template/Slides/week1.html)
+➡️ [**Slides**](/UPP4652021/Slides/week1.html)
 
 <!-- > -->
 
