@@ -3,7 +3,7 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](/UPP4652021/Slides/revealjsSlides/week1.html)
+➡️ [**Slides**](/Slides/revealjsSlides/week1.html)
 
 <!-- > -->
 
