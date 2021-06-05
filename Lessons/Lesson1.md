@@ -9,9 +9,11 @@
 ## Overview
 1. Introductions
 2. Course Overview
-3. Rant
-4. Setup your ArcGIS Online Account
+3. How to lie with maps
 
+## Assignment
+
+Setup your ArcGIS Online Account
 
 ## Additional Resources
 
