@@ -1,29 +1,20 @@
 <!-- 
 template from: https://github.com/Make-School-Courses/Syllabus-Template -->
 
-# UPP 465 2021
+# Web GIS - UPP 465 2021
 
-## Course Description
+### Course Description
+Web GIS is a popular term commonly used to mean "online maps". While professional definitions are usually much more technical, "online maps" is a terrific starting point.
 
-Course surveys Web GIS tools. (add more)
-
+The goal of this course is to enable students to build their own web maps and application using two popular tools: ArcGIS Online (AGOL) and Leaflet.js. Students will learn the principals of web mapping function, design, and visualization capabilities. We will also survey crowdsourced & participatory mapping, opensource mapping & tools such as Open Street Maps and Humanitarian Maps, and other propriety web mapping tools such as Tableau and Mapbox. While learning these tools, we will discuss current topics concerning online maps: privacy, how maps can misrepresent information or conversely how online maps can be used to support urban policies, planning and stakeholder engagement. 
 
 ## Prerequisites:  
 
 Students are expected to have basic familiarity with GIS terms and concepts prior to taking this course. Students with no previous GIS exposure have been successful in the course with additional work.  
 
-Students are not expected to have any prior programming knowledge. Students will learn the basics of HTML, CSS, and JavaScript in the course.  
+Students are not expected to have any prior programming knowledge and will learn the basics of HTML, CSS, and JavaScript in the course.  
 
-## Learning Outcomes
-
-By the end of the course, you will be able to ...
-
-1. Identify & Describe
-1. Explain
-1. Compare & Contrast
-1. Design & Implement
-1. Practice
-
+The pace of this course is fast.  Because many of the lessons build upon previous assignments, students are expected to meet deadlines and request assistance when necessary. 
 
 ## Schedule
 
@@ -35,14 +26,14 @@ By the end of the course, you will be able to ...
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Wed, June 16        | [Lesson 1] |
-|  2 |  Wed, June 23        | [Lesson 2] |
-|  3 |  Wed, June 30        | [Lesson 3] |
-|  4 |  Wed, July 7         | [Lesson 4] |
-|  5 |  Wed, July 14        | [Lesson 5] |
-|  6 |  Wed, July 21        | [Lesson 6] |
-|  7 |  Wed, July 28        | [Lesson 7] |
-|  8 |  Wed, August 4       | Final Presentations |
+|  1 |  Wed, June 16        | Introduction to course & web maps |
+|  2 |  Wed, June 23        | Create a web map with AGOL |
+|  3 |  Wed, June 30        | AGOL- Web Mapping Applications |
+|  4 |  Wed, July 7         | AGOL & Humanitarian Street Maps - Crowdsourced Mapping |
+|  5 |  Wed, July 14        | HTML & CSS - Make a Website |
+|  6 |  Wed, July 21        | Create a web map with Leaflet |
+|  7 |  Wed, July 28        | Add interactivity to Leaflet Map |
+|  8 |  Wed, August 4       | Final Presentations & Survey of Other Tools|
 
 ## Assignment Schedule 
 
