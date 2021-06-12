@@ -36,9 +36,7 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 |  8 |  Wed, August 4       | Final Presentations & Survey of Other Tools|
 
 ## Assignments 
-
-**Submit assignments to Blackboard**
-[Submit Assignment](https://uic.blackboard.com/ultra/course)  
+[**Submit assignments to Blackboard**](https://uic.blackboard.com/ultra/course)  
 
 |                        Assignment                         | Date Assigned |   Due Date   |
 |:---------------------------------------------------------:|:-------------:|:------------:|
