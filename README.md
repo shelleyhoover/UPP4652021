@@ -39,7 +39,7 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 [**Submit assignments to Blackboard**](https://uic.blackboard.com/ultra/course)  
 
 |                        Assignment                         | Points | Date Assigned |   Due Date   |
-|:---------------------------------------------------------:|:-------------:|:------------:|
+|:---------------------------------------------------------:|:-------------:|:------------:|:-------------:|
 | [AGOL Web Map ](Lessons/Lesson1id=assignment)        | 10 | Wed, June 23  |  Tue, June 29 (11:59pm) |
 | [AGOL Web App or Story Map ](makeschool.com)           | 10 |           |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
 | [AGOL Project](makeschool.com)                     | 30 |     |  Wed, July 7    |  Tues, July 13 (11:59pm)  |
