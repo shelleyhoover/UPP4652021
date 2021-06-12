@@ -40,12 +40,12 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 
 |                        Assignment                         | Points | Date Assigned |   Due Date   |
 |:---------------------------------------------------------:|:-------------:|:------------:|:-------------:|
-| [AGOL Web Map ](UPP4652021/Lessons/Lesson1/#/id=schedule)        | 10 | Wed, June 23  |  Tue, June 29 (11:59pm) |
-| [AGOL Web App or Story Map ](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson1?id=assignment)          | 10 |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
-| [AGOL Project](makeschool.com)                     | 30 |       Wed, July 7    |  Tues, July 13 (11:59pm)  |
-| [Simple Website](makeschool.com)                     | 10 |      Wed, July 14     | Tues, July 20 (11:59pm) |
-| [Static Leaflet Map](makeschool.com)                    | 10 |  Wed, July 21     |  Tues, July 27 (11:59pm)  |
-| [Leaflet Project](makeschool.com)                    | 30 |       Wed, July 28     |  Wed, August 4 (6pm)  |
+| [AGOL Web Map ](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson2?id=assignment)        | 10 | Wed, June 23  |  Tue, June 29 (11:59pm) |
+| [AGOL Web App or Story Map ](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson3?id=assignment)          | 10 |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
+| [AGOL Project](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson4?id=assignment)                     | 30 |       Wed, July 7    |  Tues, July 13 (11:59pm)  |
+| [Simple Website](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson5?id=assignment)                     | 10 |      Wed, July 14     | Tues, July 20 (11:59pm) |
+| [Static Leaflet Map](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson6?id=assignment)                   | 10 |  Wed, July 21     |  Tues, July 27 (11:59pm)  |
+| [Leaflet Project](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson7?id=assignment)                    | 30 |       Wed, July 28     |  Wed, August 4 (6pm)  |
 
 
 ## Evaluation
