@@ -51,9 +51,11 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 ## Evaluation
 Student performance will be evaluated on the basis of four homework assignments and two projects. Assignments will be graded on according to the rubric of each assignment, additionally the instructor will be evaluating map design, map functionality, and that the student demonstrastes an understanding of the content.
 
-40 points 	 Homework 	 4 assignments x 10 points each
-60 points	 Projects	 2 projects x 30 points each 
-100 points total
+|  Total |                  |
+|:-----:|:----------------------:|
+|  40 points |  4 homework assignments x 10 points each       
+|  60 points |  2 projects x 30 points each       
+|  100 points |  Total       | 
 
 ##  Information & Tutorials
 
