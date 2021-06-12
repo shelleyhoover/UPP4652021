@@ -22,4 +22,13 @@ Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.co
 ## Additional Resources
 
 1. GeoDa - Geostatistics 
-2. 
+2. How to Lie with Maps 
+3. 
+
+## Lecture Maps
+Links to maps from the lecture
+2. Jane Addams Hull House Nationality Map https://digital.library.cornell.edu/catalog/ss:3293796
+3. (Not in the lecture but fun to browse anyway) PJ Mode Persuasive Maps Collection https://digital.library.cornell.edu/?f%5Bcollection_tesim%5D%5B%5D=Persuasive+Maps%3A+PJ+Mode+Collection 
+4. Source: World Centered on New Zealand: https://www.reddit.com/r/MapPorn/comments/gqzk1h/the_earth_being_centered_on_great_britain_is/ 
+5. Souce: Coronavirus Continuum of Care Map: https://bao.arcgis.com/InfographicsPlayer/ArcGISPro/BA_Covid19/
+6.
