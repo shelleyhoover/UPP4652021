@@ -35,43 +35,29 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 |  7 |  Wed, July 28        | Add interactivity to Leaflet Map |
 |  8 |  Wed, August 4       | Final Presentations & Survey of Other Tools|
 
-## Assignment Schedule 
+## Assignments 
 
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH LINKS TO YOUR ASSIGNMENTS, CORRECT DATES, AND SUBMISSION FORM**
+**Submit assignments to Blackboard**
+[Submit Assignment](https://uic.blackboard.com/ultra/course)  |
 
-|                        Assignment                         | Date Assigned |   Due Date   |            Submission Form           |
-|:---------------------------------------------------------:|:-------------:|:------------:|:------------------------------------:|
-| [Link to Assignment](Lessons/Lesson1id=assignment)        |  Tue, Oct 15  |  Tue, Oct 22 | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-| [Link to Assignment](makeschool.com)                      |  day, Date    |  day, Date   | [Submit Assignment](makeschool.com)  |
-
-## Class Assignments
-
-We will be using [Gradescope](gradescope.com), which allows us to provide fast and accurate feedback on your work. *All assigned work will be submitted through Gradescope, and assignment and exam grades will be returned through Gradescope.*
-
-As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
-
-Your Gradescope login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
-
-### Tutorials
-
-- [Do Cool Stuff Tutorial]()
+|                        Assignment                         | Date Assigned |   Due Date   |
+|:---------------------------------------------------------:|:-------------:|:------------:|
+| [Link to Assignment](Lessons/Lesson1id=assignment)        |  Wed, June 23  |  Tue, June 29 (11:59pm) | [Submit Assignment](makeschool.com)  |
+| [Link to Assignment](makeschool.com)                      |  Wed, June 30    |  Tue, July 6 (11:59pm)   | [Submit Assignment](makeschool.com)  |
+| [Link to Assignment](makeschool.com)                      |  Wed, July 7    |  Tues, July 13 (11:59pm)   | [Submit Assignment](makeschool.com)  |
+| [Link to Assignment](makeschool.com)                      |  Wed, July 14     | Tues, July 20 (11:59pm)   | [Submit Assignment](makeschool.com)  |
+| [Link to Assignment](makeschool.com)                      |  Wed, July 21     |  Tues, July 27   | [Submit Assignment](makeschool.com)  |
+| [Link to Assignment](makeschool.com)                      |  Wed, July 28     |  Wed, August 4   | [Submit Assignment](makeschool.com)  |
+| [Link to Assignment](makeschool.com)                      |  Wed, July 28     |  Wed, August 4   | [Submit Assignment](makeschool.com)  |
 
 ## Evaluation
+Student performance will be evaluated on the basis of four homework assignments and two projects. Assignments will be graded on according to the rubric of each assignment, additionally the instructor will be evaluating map design, legibility, and that the student demonstrastes an understanding of the content.
 
-**[INSTRUCTOR NOTE] REPLACE THE BELOW WITH EVALUATIONS THAT PERTAIN TO YOUR COURSE. THE BELOW ARE PROVIDED AS A SAMPLE**
+40 points 	 Homework 	 4 assignments x 10 points each
+60 points	 Projects	 2 projects x 30 points each 
+100 points total
 
-To pass this course you must meet the following requirements:
-
-- Complete all required assignments 
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment according to the rubric as specified in this class
-    - This will be further explained in the [study guide](ADD_STUDY_GUIDE_LNK)
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
-
-##  Information Resources
+##  Information & Tutorials
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
