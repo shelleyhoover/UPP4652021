@@ -40,7 +40,7 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 
 |                        Assignment                         | Points | Date Assigned |   Due Date   |
 |:---------------------------------------------------------:|:-------------:|:------------:|:-------------:|
-| [AGOL Web Map ](Lessons/Lesson1)        | 10 | Wed, June 23  |  Tue, June 29 (11:59pm) |
+| [AGOL Web Map ](UPP4652021/Lessons/Lesson1/#/id=schedule)        | 10 | Wed, June 23  |  Tue, June 29 (11:59pm) |
 | [AGOL Web App or Story Map ](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson1?id=assignment)          | 10 |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
 | [AGOL Project](makeschool.com)                     | 30 |       Wed, July 7    |  Tues, July 13 (11:59pm)  |
 | [Simple Website](makeschool.com)                     | 10 |      Wed, July 14     | Tues, July 20 (11:59pm) |
