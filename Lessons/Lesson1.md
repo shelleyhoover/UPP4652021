@@ -21,4 +21,5 @@ Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.co
 
 ## Additional Resources
 
-1. Links to additional readings and videos
+1. GeoDa - Geostatistics 
+2. 
