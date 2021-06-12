@@ -42,12 +42,12 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 
 |                        Assignment                         | Date Assigned |   Due Date   |
 |:---------------------------------------------------------:|:-------------:|:------------:|
-| [AGOL Web Map ](Lessons/Lesson1id=assignment)        |  Wed, June 23  |  Tue, June 29 (11:59pm) | [Submit Assignment](makeschool.com)  |
-| [AGOL Web App or Story Map ](makeschool.com)                      |  Wed, June 30    |  Tue, July 6 (11:59pm)   | [Submit Assignment](makeschool.com)  |
-| [AGOL Project](makeschool.com)                      |  Wed, July 7    |  Tues, July 13 (11:59pm)   | [Submit Assignment](makeschool.com)  |
-| [Simple Website](makeschool.com)                      |  Wed, July 14     | Tues, July 20 (11:59pm)   | [Submit Assignment](makeschool.com)  |
-| [Static Leaflet Map](makeschool.com)                      |  Wed, July 21     |  Tues, July 27   | [Submit Assignment](makeschool.com)  |
-| [Leaflet Project](makeschool.com)                      |  Wed, July 28     |  Wed, August 4   | [Submit Assignment](makeschool.com)  |
+| [AGOL Web Map ](Lessons/Lesson1id=assignment)        |  Wed, June 23  |  Tue, June 29 (11:59pm) |
+| [AGOL Web App or Story Map ](makeschool.com)                      |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
+| [AGOL Project](makeschool.com)                      |  Wed, July 7    |  Tues, July 13 (11:59pm)  |
+| [Simple Website](makeschool.com)                      |  Wed, July 14     | Tues, July 20 (11:59pm) |
+| [Static Leaflet Map](makeschool.com)                      |  Wed, July 21     |  Tues, July 27 (11:59pm)  |
+| [Leaflet Project](makeschool.com)                      |  Wed, July 28     |  Wed, August 4 (11:59pm)  |
 
 
 ## Evaluation
