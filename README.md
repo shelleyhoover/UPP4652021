@@ -38,18 +38,18 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 ## Assignments 
 [**Submit assignments to Blackboard**](https://uic.blackboard.com/ultra/course)  
 
-|                        Assignment                         | Date Assigned |   Due Date   |
+|                        Assignment                         | Points | Date Assigned |   Due Date   |
 |:---------------------------------------------------------:|:-------------:|:------------:|
-| [AGOL Web Map ](Lessons/Lesson1id=assignment)        |  Wed, June 23  |  Tue, June 29 (11:59pm) |
-| [AGOL Web App or Story Map ](makeschool.com)                      |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
-| [AGOL Project](makeschool.com)                      |  Wed, July 7    |  Tues, July 13 (11:59pm)  |
-| [Simple Website](makeschool.com)                      |  Wed, July 14     | Tues, July 20 (11:59pm) |
-| [Static Leaflet Map](makeschool.com)                      |  Wed, July 21     |  Tues, July 27 (11:59pm)  |
-| [Leaflet Project](makeschool.com)                      |  Wed, July 28     |  Wed, August 4 (11:59pm)  |
+| [AGOL Web Map ](Lessons/Lesson1id=assignment)        | 10 | Wed, June 23  |  Tue, June 29 (11:59pm) |
+| [AGOL Web App or Story Map ](makeschool.com)           | 10 |           |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
+| [AGOL Project](makeschool.com)                     | 30 |     |  Wed, July 7    |  Tues, July 13 (11:59pm)  |
+| [Simple Website](makeschool.com)                     | 10 |     |  Wed, July 14     | Tues, July 20 (11:59pm) |
+| [Static Leaflet Map](makeschool.com)                    | 10 |      |  Wed, July 21     |  Tues, July 27 (11:59pm)  |
+| [Leaflet Project](makeschool.com)                    | 30 |      |  Wed, July 28     |  Wed, August 4 (11:59pm)  |
 
 
 ## Evaluation
-Student performance will be evaluated on the basis of four homework assignments and two projects. Assignments will be graded on according to the rubric of each assignment, additionally the instructor will be evaluating map design, legibility, and that the student demonstrastes an understanding of the content.
+Student performance will be evaluated on the basis of four homework assignments and two projects. Assignments will be graded on according to the rubric of each assignment, additionally the instructor will be evaluating map design, map functionality, and that the student demonstrastes an understanding of the content.
 
 40 points 	 Homework 	 4 assignments x 10 points each
 60 points	 Projects	 2 projects x 30 points each 
