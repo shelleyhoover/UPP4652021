@@ -4,9 +4,9 @@ template from: https://github.com/Make-School-Courses/Syllabus-Template -->
 # Web GIS - UPP 465 2021
 
 ### Course Description
-Web GIS is a popular term commonly used to refer to "online maps". While professional definitions are usually much more technical, "online maps" is a terrific starting point.
+Web GIS is a popular term commonly used to refer to "online maps". While professional definitions are usually much more technical, "online maps" is a great starting point.
 
-The goal of this course is to enable students to build their own web maps and application using two popular tools: ArcGIS Online (AGOL) and Leaflet.js. Students will learn the principals of web mapping function, design, and visualization capabilities. We will also survey crowdsourced & participatory mapping, opensource mapping & tools such as Open Street Maps and Humanitarian Maps, and other propriety web mapping tools such as Tableau and Mapbox. While learning these tools, we will discuss current topics concerning online maps: privacy, how maps can misrepresent information or conversely how online maps can be used to support urban policies, planning and stakeholder engagement. 
+The goal of this course is to enable students to build their own online maps and applications using two popular tools: ArcGIS Online (AGOL) and Leaflet.js. Students will learn the principals of web mapping function, design, and visualization capabilities. We will also survey crowdsourced & participatory mapping, opensource mapping tools such as Open Street Maps and Humanitarian Maps, as well as other propriety web mapping tools such as Tableau and Mapbox. While learning these tools, we will discuss current topics concerning online maps: privacy, how maps can misrepresent information, or conversely how online maps can be used to support urban policies, planning and stakeholder engagement. 
 
 ## Prerequisites:  
 
@@ -41,7 +41,7 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 |                        Assignment                         | Points | Date Assigned |   Due Date   |
 |:---------------------------------------------------------:|:-------------:|:------------:|:-------------:|
 | [AGOL Web Map ](Lessons/Lesson1)        | 10 | Wed, June 23  |  Tue, June 29 (11:59pm) |
-| [AGOL Web App or Story Map ](Lessons/Lesson1id=Assignment)          | 10 |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
+| [AGOL Web App or Story Map ](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson1?id=assignment)          | 10 |  Wed, June 30    |  Tue, July 6 (11:59pm)  |
 | [AGOL Project](makeschool.com)                     | 30 |       Wed, July 7    |  Tues, July 13 (11:59pm)  |
 | [Simple Website](makeschool.com)                     | 10 |      Wed, July 14     | Tues, July 20 (11:59pm) |
 | [Static Leaflet Map](makeschool.com)                    | 10 |  Wed, July 21     |  Tues, July 27 (11:59pm)  |
