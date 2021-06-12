@@ -13,7 +13,7 @@
 
 ## Assignment
 
-Make sure you can login to [ArcGIS Online]: (https://univofillinois.maps.arcgis.com/)
+Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.com/)
 
 1. Be sure to select "Enterprise Login"
 2. Login using your UIC NetID
