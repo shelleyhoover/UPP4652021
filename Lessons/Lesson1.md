@@ -24,6 +24,7 @@ Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.co
 1. GeoDa - Geostatistics 
 2. How to Lie with Maps 
 3. Modifiable Areal Unit Problem: https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem 
+4. https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification 
 
 ## Lecture Maps
 Links to maps from the lecture
