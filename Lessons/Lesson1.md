@@ -31,4 +31,4 @@ Links to maps from the lecture
 3. (Not in the lecture but fun to browse anyway) PJ Mode Persuasive Maps Collection https://digital.library.cornell.edu/?f%5Bcollection_tesim%5D%5B%5D=Persuasive+Maps%3A+PJ+Mode+Collection 
 4. Source: World Centered on New Zealand: https://www.reddit.com/r/MapPorn/comments/gqzk1h/the_earth_being_centered_on_great_britain_is/ 
 5. Souce: Coronavirus Continuum of Care Map: https://bao.arcgis.com/InfographicsPlayer/ArcGISPro/BA_Covid19/
-6.
+6. Play around with projections: https://www.jasondavies.com/maps/transition/
