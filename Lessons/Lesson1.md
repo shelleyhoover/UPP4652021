@@ -22,13 +22,17 @@ Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.co
 ## Additional Resources
 
 1. How to Lie with Maps 
-2. [Modifiable Areal Unit Problem] (https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem)
-3. [Further Reading on Statistical Mapping Issues] (https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification)
+2. [Modifiable Areal Unit Problem](https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem)
+3. [Further Reading on Statistical Mapping Issues](https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification)
+4. [Coursera Course on Map Data Classification](https://www.coursera.org/lecture/gis-mapping-spatial-analysis-capstone/data-classification-for-mapping-7aU7l)
 
 ## Lecture Maps
 Links to maps from the lecture
-1. [Jane Addams Hull House Nationality Map] (https://digital.library.cornell.edu/catalog/ss:3293796)
-2. [Not in the lecture but fun to browse anyway - PJ Mode Persuasive Maps Collection] (https://digital.library.cornell.edu/?f%5Bcollection_tesim%5D%5B%5D=Persuasive+Maps%3A+PJ+Mode+Collection)
-3. [World Centered on New Zealand] (https://www.reddit.com/r/MapPorn/comments/gqzk1h/the_earth_being_centered_on_great_britain_is/) 
-4. [Coronavirus Continuum of Care Map] (https://bao.arcgis.com/InfographicsPlayer/ArcGISPro/BA_Covid19/)
-5. [Play around with projections] (https://www.jasondavies.com/maps/transition/)
+1. [Jane Addams Hull House Nationality Map](https://digital.library.cornell.edu/catalog/ss:3293796)
+2. [Not in the lecture but fun to browse anyway - PJ Mode Persuasive Maps Collection](https://digital.library.cornell.edu/?f%5Bcollection_tesim%5D%5B%5D=Persuasive+Maps%3A+PJ+Mode+Collection)
+3. [World Centered on New Zealand](https://www.reddit.com/r/MapPorn/comments/gqzk1h/the_earth_being_centered_on_great_britain_is/) 
+4. [Coronavirus Continuum of Care Map](https://bao.arcgis.com/InfographicsPlayer/ArcGISPro/BA_Covid19/)
+5. [Play around with projections](https://www.jasondavies.com/maps/transition/)
+6. [How to Steal an Electino](https://www.reddit.com/r/woahdude/comments/2xgqss/this_is_how_gerrymandering_works/)
+7. [Communist Menance](https://digital.library.cornell.edu/catalog/ss:19343351)
+8. [Chicago Racial Dot Map](http://www.radicalcartography.net/index.html?chicagodots)
