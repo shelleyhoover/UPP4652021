@@ -64,5 +64,6 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [University Consortium for GIS](https://www.ucgis.org/)
 - [GeoDa]
 - CodeAcademy
+- ColorBrewer
 
 
