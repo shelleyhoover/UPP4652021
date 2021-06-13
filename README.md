@@ -65,5 +65,6 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [GeoDa]
 - CodeAcademy
 - ColorBrewer
+- [GIS Stackexchage](https://gis.stackexchange.com/)
 
 
