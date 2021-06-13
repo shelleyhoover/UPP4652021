@@ -23,7 +23,7 @@ Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.co
 
 1. GeoDa - Geostatistics 
 2. How to Lie with Maps 
-3. 
+3. Modifiable Areal Unit Problem: https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem 
 
 ## Lecture Maps
 Links to maps from the lecture
