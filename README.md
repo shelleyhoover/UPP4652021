@@ -61,6 +61,8 @@ Student performance will be evaluated on the basis of four homework assignments 
 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
-- [make.sc/library](http://make.sc/library)
+- [University Consortium for GIS](https://www.ucgis.org/)
+- [GeoDa]
+- CodeAcademy
 
 
