@@ -4,9 +4,11 @@ template from: https://github.com/Make-School-Courses/Syllabus-Template -->
 # Web GIS - UPP 465 2021
 
 ## Course Description
-Web GIS is a popular term commonly used to refer to "online maps". While professional definitions are usually much more technical, "online maps" is a great starting point.
+Web GIS is a popular term commonly used to refer to "online maps". While professional definitions are usually much more technical, "online maps" is a good starting point.
 
-The goal of this course is to enable students to build their own online maps and applications using two popular tools: ArcGIS Online (AGOL) and Leaflet.js. Students will learn the principals of web mapping function, design, and visualization capabilities. We will also survey crowdsourced & participatory mapping, opensource mapping tools such as Open Street Maps and Humanitarian Maps, as well as other propriety web mapping tools such as Tableau and Mapbox. While learning these tools, we will discuss current topics concerning online maps: privacy, how maps can misrepresent information, or conversely how online maps can be used to support urban policies, planning and stakeholder engagement. 
+The goal of this course is to enable students to build their own online maps using two popular tools: ArcGIS Online (AGOL) and Leaflet.js. Students will gain the technical knowledge to create interactive online maps while learning the principals of effective map design & visualizations.
+
+We will also survey crowdsourced mapping tools such as Open Street Maps, as well as other propriety web mapping tools. While learning these tools, we will discuss current topics concerning online maps: privacy, how maps can misrepresent information, or how they can effectively engage stakeholder groups.  
 
 ## Prerequisites:  
 
