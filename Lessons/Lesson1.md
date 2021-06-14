@@ -3,7 +3,7 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week1.html#/1)
+➡️ [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week1.html#/)
 
 
 ## Overview
