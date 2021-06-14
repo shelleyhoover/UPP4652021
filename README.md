@@ -49,7 +49,7 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 
 
 ## Evaluation
-Student performance will be evaluated on the basis of four homework assignments and two projects. Assignments will be graded on according to the rubric of each assignment, additionally the instructor will be evaluating map design, map functionality, and that the student demonstrastes an understanding of the content.
+Student performance will be evaluated on the basis of four homework assignments and two projects. Assignments will be graded according to the rubric of each assignment. Additionally the instructor will be evaluating map design, functionality, and that the student demonstrates an understanding of the content. 
 
 |  Total |                  |
 |:-----:|:----------------------:|
@@ -62,9 +62,10 @@ Student performance will be evaluated on the basis of four homework assignments 
 Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
 
 - [University Consortium for GIS](https://www.ucgis.org/)
-- [GeoDa]
-- CodeAcademy
-- ColorBrewer
+- [GeoDa geostatistics tool](https://geodacenter.github.io/)
+- [CodeAcademy HTML & CSS](https://www.codecademy.com/catalog/language/html-css) 
+- [CodeAcademy JavaScript](https://www.codecademy.com/learn/introduction-to-javascript) 
+- [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
 - [GIS Stackexchage](https://gis.stackexchange.com/)
 
 
