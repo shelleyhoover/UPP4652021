@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Week 1</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -16,17 +16,477 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
+
+		<!-- Introduction to Course -->
+
 					<section>
-					<h3>Hello! Welcome to Week 1 of Web GIS</h3>
+					<h3>Hello!</h3>
+					<h3>Welcome to Week 1 of Web GIS</h3>
+				</section>
+				<section>
+					<h3>Overview of today's class</h3>
+					<ul>
+						<li>Introductions</li>
+						<li>Course Overview</li>
+						<li>How to lie with maps</li>
+						<li>Login to ArcGIS Online</li>
+					</ul>
+				</section>
+				<section>
+					<ul><li>Zoom Polls</li>
+					<ul>
+						<li>Why are you here?</li>
+						<li>Experience with GIS</li>
+						<li>Experience with *~*coding*~*</li></ul>
+						<li>Introductions</li>
+					</ul>
+				</section>
+
+		<!-- Course Overview-->
+
+				<section><h2>Course Overview</h2></section>
+
+				<section id="fragments">
+					<h3>Course Goals</h3>
+					<ol>
+					<li>By the end of this course students will be able to use ArcGIS Online & Leaflet.js to create interactive, online maps</li>
+					<li class="fragment">Students will have a deeper knowledge of effective map design & functionality</li>
+					<li class="fragment">Equip students with basic working knowledge of HTML, CSS, and JavaScript </li> 
+					<li class="fragment">Provide students with an overview of the current Web GIS landscape</li>
+					</ol>
 				</section>
 
 				<section>
-					<h2>Hello There</h2>
-					<p>
-						This is a test
-					</p>
+					<p>This course is focused on visualization.</p>
+					<p>We will not focus on data management or statistics, however you should be conscientious of how these affect your final product</p>
 				</section>
-				<section>Slide 2</section>
+
+				<section>
+					<p>Data will be provided for the course, but you are highly encouraged to use your own!</p>
+					<p style = "font-size: 18px">If you need help cleaning/geocoding data from other courses or projects, reach out to me.</p>
+				</section>
+
+				<section>
+					<h2>Course Ecosystem</h2>
+					<table>
+						<tbody>
+							<tr><th>Zoom</th>
+								<td><li>Weekly Lectures</li>
+									<li>Wed, 6pm-8:30pm</li>
+								</td>
+							</tr>
+							<tr><th>Github</th>
+								<td>
+								<li><a href = 'https://github.com/shelleyhoover/UPP4652021' target="_blank">Course Repository & Data</a></li>
+								<li><a href = 'https://shelleyhoover.github.io/UPP4652021/' target="_blank"> Syllabus & Lecture Slides </a></li>
+								</td>
+							</tr>
+							<tr><th><a href = 'https://uic.blackboard.com/' target="_blank">Blackboard</a></th>
+								<td>
+								<li>Submit Assignments</li>
+								<li>Lecture Recordings</li>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+
+				<section>
+					<h3>Main Course Tools</h3>
+					<ul>
+						<li>ArcGIS Online</li>
+						<li>Leaflet.js</li>
+					</ul>
+				</section>
+
+				<section>
+					<p>What is ArcGIS Online?</p>
+				</section>
+
+				<section data-background-iframe="https://univofillinois.maps.arcgis.com/apps/dashboards/34fed6aba7ad403791897557698e111b" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Your final AGOL project will be something like this</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://coronavirus.jhu.edu/us-map" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Something like this requires a little more coding & data management than we will cover in this course.</p>
+					</div>
+				</section>
+
+				<section>
+					<h2>Pros/Cons of AGOL</h2>
+					<table>
+						<tbody>
+							<tr><th>Pros</th>
+								<td><li>User Friendly (easier than ArcMap!) </li>
+								<li>Integrates with other propriety platforms</li>
+								<li>Widely Used</li></td>
+							</tr>
+							<tr><th>Cons</th>
+								<td><li>Relatively limited if not a developer</li>
+								<li>Can be slow/clunky</li>
+								<li>Expensive!</li></td>
+						</tbody>
+					</table>
+				</section>
+
+				<section>
+					<p>What is Leaflet?</p>
+				</section>
+
+				<section data-background-iframe="https://shelleyhoover.github.io/grannyflats/"data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Your final Leaflet project will be something like this</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://www.kent.ac.uk/parrotnet/map.html" data-background-interactive>
+					<div style="position: absolute; width: 10%; left: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>An example of a more complicated leaflet map. We will not get this far in this course, but very doable if you keep at it.</p>
+					</div>
+				</section>
+
+
+				<section>
+					<h2>Pros/Cons of Leaflet</h2>
+					<table>
+						<tbody>
+							<tr><th>Pros</th>
+								<td><li>Free!</li>
+								<li>Open source </li>
+								<li>Lightweight</li>
+								<li>Versatile</li>
+							</td>
+							</tr>
+							<tr><th>Cons</th>
+								<td><li>High learning curve </li>
+								<li>No built-in support team (though robust user-to-user support)</li>
+								<li>Not apart of a robust GIS suite of tools</li>
+								</td>
+						</tbody>
+					</table>
+				</section>
+
+<!-- How to lie with maps-->
+	<section><h2>How to Lie with Maps</h2></section>
+		<!-- Thematic Maps-->
+
+				<section><h3>First, a quick refresher (or crash course) on Thematic Maps</h3>
+				<p>We will create interative thematic maps in this course, as opposed to general reference or topographical maps.</p>
+				</section>
+
+		
+				<section>
+				<p>Thematic maps are maps designed to show a particular theme</p>
+				<p> Basic types of thematic maps </p>
+					<ul>
+						<li>Choropleth</li>
+						<li>Proportional Symbols</li>
+						<li>Cartograms</li>
+						<li>Dot</li>
+						<li>Flow Map</li>
+					</ul>
+				</section>
+
+				<section data-background-iframe="https://www.cdc.gov/nchs/pressroom/sosmap/diabetes_mortality/diabetes.htm" data-background-interactive>
+					<div style="position: absolute; width: 10%; left: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Choropleth Maps use color or shading to show data over a defined area. </p> 
+					</div>
+				</section>
+
+				<section data-background-iframe="https://graphics.latimes.com/healthcare-disparity/" data-background-interactive>
+					<div style="position: absolute; width: 10%; left: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>You'll see a lot of these.</p> 
+					</div>
+				</section>
+
+				<section>
+				
+					<p><a href = "https://digital.library.cornell.edu/catalog/ss:3293796" target="_blank" >Hull House example</a></p>
+				</section>
+
+				<section data-background-iframe="https://bao.arcgis.com/InfographicsPlayer/ArcGISPro/BA_Covid19/" data-background-interactive>
+					<div style="position: absolute; width: 10%; left: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Proportional Symbols Maps use symbols of varying sizes to show a quantitative value</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://i.redd.it/f9zqjetoku6x.jpg" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Another proportional symbols example</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="http://www.viewsoftheworld.net/wp-content/uploads/2020/11/USelection2020Cartogram.png" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: -30%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Cartograms distort land area to represent a variable.</p>
+						<p>Color used to represent second variable (and third variable!) </p>
+					</div>
+				</section>
+
+				<section data-background-iframe="http://racialdotmap.demographics.coopercenter.org/" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Dot Density Maps use a dot to represent the distribution (or density) of a phenomenon</p>
+						<p>Color used to represent second variable</p>
+					</div>
+				</section>
+
+
+				<section data-background-iframe="https://blogs.cdc.gov/publichealthmatters/2017/03/a-legacy-of-disease-detectives/" data-background-interactive>
+					<div style="position: absolute; width: 10%; left: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>The famous John Snow Cholera map</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://i.redd.it/yt8i60ghbsp11.png" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Flow maps show the movement of a unit or variable. </p> <p>Color & symbol size used to represent second & third variables</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://www.arcgis.com/apps/MapJournal/index.html?appid=12cc04cc72c04ceca368a790e5a819c0" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Color used to represent second variable</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Minard's flow map of Napoleon's 1812 Russian campaign. </p> <p> Symbol size used to represent second variable.</p>
+					</div>
+				</section>
+		<!-- How to lie with maps-->
+
+			<section>
+				<p>Everyone making a map is doing so for a reason.</p>
+				<p class="fragment" style="font-size:24px">Some maps are a bit less subtle about their agendas than others</p>
+				</section>
+
+				<section>	
+				<img src="pictures/communistmenace.png" > 
+					<p style="font-size:18px"> <em>Spooky!</em> </p>
+				</section>
+
+				<section data-background-iframe="https://www.cynthiadavis.net/who-owns-the-west/" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>I was not aware this was a concern</p>
+					</div>
+				</section>
+
+				<section>
+				<h3>all maps 'lie'</h3>
+					<p> It is impossible* to have a completely objective map</p>
+					<p style="font-size:24px">Even if your goal is to create an objective data visualization, every map maker needs to make choices that effectively result in the map telling lies.</p>
+					<p class="fragment" style="font-size:18px">
+						<em>*Okay, a map with a 1:1 scale could be objective. But it would be pretty useles</em></p>
+				</section>
+
+
+				<section>	
+				<img src="pictures/2016election.png" > 
+					<p style="font-size:18px"> <em>Despite the obvious agenda of one, both can be considered honest depictions the 2016 election results.</em> </p>
+				</section>
+
+				<section>
+				<p style="font-size:36px">You're free to make map design choices that support your message. But if you're going to, do it on purpose. </p>
+				<p style="font-size:24px"><em>If your goal is to make as objective a map as possible, consider why you're making certain design choices. </em></p>
+				</section>
+
+
+				<section>
+					<img src="pictures/sharpiemap.jpg" > 
+					<p style="font-size:16px"> Either way, make your manipulative design a bit more subtle than this (and also don't literally lie...)</p>
+				</section>
+
+				<section>
+				<p style="font-size:24px">Until you're out in the world pushing agendas, let's be conscientious of the following map design choices that can be deceptive:</p>
+				<li class="fragment"> How data is areally aggregated </li>
+				<li class="fragment"> How data is classed </li>
+				<li class="fragment"> Assuming the viewer has the <em> literally </em> the same worldview as you</li>
+				<li class="fragment"> Color choices</li>
+			</section>
+
+<!-- how to lie with maps - aggregating data -->
+				<section>
+					<p>1. How are you aggregating your data areally?</p>
+				</section>
+
+				<section>
+					<img src="pictures/maup.png" width="900" height="300"> 
+					<p style="font-size:18px"> <em>Modifiable Areal Unit Problem </em> </p>
+
+				</section>
+
+				<section>
+				
+					<img src="pictures/arealunitschicago.png"> 
+					<p>Many ways to divide Chicago</p>
+				</section>
+
+				<section data-background-iframe="https://i.imgur.com/jK8VFZx.jpg" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Administrative units are not always drawn randomly or objectively...</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://www.govtrack.us/congress/members/map" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Oy vey</p>
+					</div>
+				</section>
+
+				<section>
+					<p>Alternatives?</p>
+				</section>
+
+				<section>
+					<p style="font-size:24px">Dot Density</p>
+					<img src="pictures/chicagodots_race_big.jpg" height="600"> 
+				</section>
+
+				<section>	
+				<p style="font-size:24px">Proportional Symbols</p>
+				<img src="pictures/2016election.png" > 
+				</section>
+
+				<section data-background-iframe="http://www.viewsoftheworld.net/wp-content/uploads/2020/11/USelection2020Cartogram.png" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: -30%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Cartograms</p>
+					</div>
+				</section>
+
+				<section>
+					<p>You will not always have the data to do these alternatives!</p>
+				</section>
+
+
+<!-- how to lie with maps - aggregating data -->
+				<section>
+					<p>2. How are you classifying your data?</p>
+				</section>
+
+				<section>	
+				<p style="font-size:24px">Classifications</p>
+				<img src="pictures/classifications.png" > 
+				</section>
+
+				<section data-background-iframe="https://www.cdc.gov/dhdsp/maps/gisx/resources/classifying-data.html" data-background-interactive>
+					<div style="position: absolute; width: 10%; left: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Common Classification Schemes used by GIS Software</p>
+					</div>
+				</section>
+
+				<section>	
+				<img src="pictures/classificationsproportional.png" > 
+				</section>
+
+				<section>	
+				<p style="font-size:24px">What does "% Elderly Living Alone" mean anyway?</p>
+				</section>
+
+				<section>	
+				<img src="pictures/datacomparison.png" > 
+				</section>
+
+<!-- how to lie with maps - projection issues -->
+
+				<section>
+					<p>3. How are you projecting your data?</p>
+				</section>
+
+				<section data-background-iframe="https://geographical.co.uk/nature/tectonics/item/3261-earthquakes-cartograms" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Cartograms rely on the user having both strong mental image of the area, but also one that matches the projection of the non-distorted map.</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="http://www.viewsoftheworld.net/wp-content/uploads/2020/11/USelection2020Cartogram.png" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: -30%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Often a reference map is included just for this purpose</p>
+					</div>
+				</section>
+
+				<section>	
+				<p style="font-size:24px">Many of you probably grew up looking at this map</p>
+				<img src="pictures/mercator.jfif" > 
+				</section>
+
+				<section data-background-iframe="https://external-preview.redd.it/D2hgD6HbyWWAURxAwTwoOG20tGeFuPrtur-9_ev_9yM.gif?format=mp4&s=89356b72d4145d7071b8603cf4aa6e4a7df109d3" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>Which distorts land area in order to preserve direction (it was made for sailors!)</p>
+					</div>
+				</section>
+
+				<section>	
+				<p style="font-size:24px">Some of you might be more familiar with this one</p>
+				<p style="font-size:16px"><em>Now area is preserved, but shape is distorted</em></p>
+				<img src="pictures/peters.jpg" > 
+
+				</section>
+
+				</section>
+				<section data-background-iframe="https://www.jasondavies.com/maps/transition/" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>All maps distort something</p>
+					</div>
+				</section>
+
+				<section data-background-iframe="https://i.redd.it/oei5bzmyr4151.jpg" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>And why are we even centering things on the UK, anyway?</p>
+					</div>
+				</section>
+
+<!-- how to lie with maps - color -->
+
+			<section>
+				<h3>4. Color Considerations</h3>
+			</section>
+
+			<section>	
+				<p style="font-size:24px">Color is cultural, consider what the color you're choosing says.</p>
+			<img src="pictures/concretesocialism.png" > 
+			</section>
+
+			<section>	
+				<p style="font-size:24px">Red = Liberal, Blue = Conservative</p>
+			<img src="pictures/croatiaelectionresults.jpg" > 
+			</section>
+
+			<section>	
+				<p style="font-size:24px">Color schemes that may feel "natural" can be the result of long-standing cartographic requirements</p>
+			<img src="pictures/hillshade.jpg" > 
+			</section>
+
+			<section data-background-iframe="https://mgimond.github.io/Spatial/symbolizing-features.html" data-background-interactive>
+				<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+				<p>This is a great resource in general</p>
+				</div>
+			</section>
+
+			<section>	
+				<p style="font-size:24px"></p>
+			<img src="pictures/kindvintensity.png" > 
+			</section>
+
+			<section data-background-iframe="https://i.redd.it/9s3a08gmr8j61.png" data-background-interactive>
+				<div style="position: absolute; width: 10%; left: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+				<p>Can you get an immediate impression of what the colors mean?</p>
+				</div>
+			</section>
+
+			<section>	
+				<p style="font-size:24px">Do you get an immediate impression of what the colors mean?</p>
+			<img src="pictures/2020coronaviruscases.jpg" > 
+			</section>
+
+
+
+<!-- Register for AGOL-->
+					
 			</div>
 		</div>
 
