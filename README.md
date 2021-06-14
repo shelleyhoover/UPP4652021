@@ -59,7 +59,7 @@ Student performance will be evaluated on the basis of four homework assignments 
 
 ##  Information & Tutorials
 
-Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+Some useful tools & resources: 
 
 - [University Consortium for GIS](https://www.ucgis.org/)
 - [GeoDa geostatistics tool](https://geodacenter.github.io/)
