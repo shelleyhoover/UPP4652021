@@ -53,3 +53,6 @@ Links to maps from the lecture
 19. [Who Owns the West?](https://i.redd.it/f9zqjetoku6x.jpg)
 20. [Healthcare Disparities](https://graphics.latimes.com/healthcare-disparity/)
 21. [Diabetes Prevalence](https://www.cdc.gov/nchs/pressroom/sosmap/diabetes_mortality/diabetes.htm) 
+22. [Spending Per Student](https://knightlab.northwestern.edu/2016/07/18/three-tools-to-help-you-make-colorblind-friendly-graphics/)
+23. [Rule of Blood versus Rule of Land](https://www.reddit.com/r/MapPorn/comments/nn7evq/places_where_birthright_citizenship_is_based_on/)
+24. [Cannabis Consumption](https://www.reddit.com/r/MapPorn/comments/lasysb/cannabis_consumption_by_young_people_in_europe/)
