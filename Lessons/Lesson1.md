@@ -61,3 +61,5 @@ Links to maps from the lecture
 25. [Wuhan Flights Map](https://firstdraftnews.org/wp-content/uploads/2020/02/misleading-coronavirus-maps.png?x11129)
 26. [Rihanna Wildfire Map](https://www.bbc.com/news/blogs-trending-51020564)
 27. [Economist Missile Map](https://www.independent.com/2017/06/14/map-rap/)
+28. [Australia Fires USA Today](https://www.usatoday.com/story/news/world/2020/01/03/australia-fires-map-animals-evacuations/2803057001/) 
+29. [Australia Fires Time](https://time.com/5753584/bushfires-australia-catastrophic-fire-alert/)
