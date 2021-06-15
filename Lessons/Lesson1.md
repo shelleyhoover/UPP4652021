@@ -22,13 +22,15 @@ Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.co
 ## Additional Resources
 
 1. [How to Lie with Maps](http://www.markmonmonier.com/how_to_lie_with_maps_14880.htm) 
-2. [Modifiable Areal Unit Problem](https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification)
+2. [Modifiable Areal Unit Problem](https://en.wikipedia.org/wiki/Modifiable_areal_unit_problem)
 3. [Further Reading on Statistical Mapping Issues](https://gistbok.ucgis.org/bok-topics/statistical-mapping-enumeration-normalization-classification)
 4. [Coursera Course on Map Data Classification](https://www.coursera.org/lecture/gis-mapping-spatial-analysis-capstone/data-classification-for-mapping-7aU7l)
 5. [PJ Mode Persuasive Maps Collection](https://digital.library.cornell.edu/?f%5Bcollection_tesim%5D%5B%5D=Persuasive+Maps%3A+PJ+Mode+Collection)
 6. [Symbolizing Features](https://mgimond.github.io/Spatial/symbolizing-features.html) 
 7. [Map Projection Tool](https://www.jasondavies.com/maps/transition/) 
 8. [CDC Classifying Data Tool](https://www.cdc.gov/dhdsp/maps/gisx/resources/classifying-data.html)
+9. [Nice Article on Viral Maps](http://www.slate.com/articles/arts/culturebox/2014/04/viral_maps_the_problem_with_all_those_fun_maps_of_the_u_s_plus_some_fun.html?map=4&gsex=1)
+10. [Understanding Geodesic Buffering](https://www.esri.com/news/arcuser/0111/geodesic.html) 
 
 ## Lecture Maps
 Links to maps from the lecture
@@ -56,3 +58,6 @@ Links to maps from the lecture
 22. [Spending Per Student](https://knightlab.northwestern.edu/2016/07/18/three-tools-to-help-you-make-colorblind-friendly-graphics/)
 23. [Rule of Blood versus Rule of Land](https://www.reddit.com/r/MapPorn/comments/nn7evq/places_where_birthright_citizenship_is_based_on/)
 24. [Cannabis Consumption](https://www.reddit.com/r/MapPorn/comments/lasysb/cannabis_consumption_by_young_people_in_europe/)
+25. [Wuhan Flights Map](https://firstdraftnews.org/wp-content/uploads/2020/02/misleading-coronavirus-maps.png?x11129)
+26. [Rihanna Wildfire Map](https://www.bbc.com/news/blogs-trending-51020564)
+27. [Economist Missile Map](https://www.independent.com/2017/06/14/map-rap/)
