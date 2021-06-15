@@ -15,9 +15,9 @@
 
 Make sure you can login to [ArcGIS Online](https://univofillinois.maps.arcgis.com/)
 
-1. Be sure to select "Enterprise Login"
+1. Be sure to select the UIC login
 2. Login using your UIC NetID
-3. Email me if you're unable to login before next week's class 
+3. Email me if you're unable to login before next week's class  
 
 ## Additional Resources
 
