@@ -34,10 +34,6 @@
 				</section>
 				<section>
 					<ul><li>Zoom Polls</li>
-					<ul>
-						<li>Why are you here?</li>
-						<li>Experience with GIS</li>
-						<li>Experience with *~*coding*~*</li></ul>
 						<li>Introductions</li>
 					</ul>
 				</section>
@@ -48,22 +44,21 @@
 
 				<section id="fragments">
 					<h3>Course Goals</h3>
+					<p>By the end of this course students...</p>
 					<ol>
-					<li>By the end of this course students will be able to use ArcGIS Online & Leaflet.js to create interactive, online maps</li>
-					<li class="fragment">Students will have a deeper knowledge of effective map design & functionality</li>
-					<li class="fragment">Equip students with basic working knowledge of HTML, CSS, and JavaScript </li> 
-					<li class="fragment">Provide students with an overview of the current Web GIS landscape</li>
+					<li class="fragment">will be able to create interactive, online maps using ArcGIS Online & Leaflet.js</li>
+					<li class="fragment">will have a deeper knowledge of effective map design & functionality</li>
 					</ol>
 				</section>
 
 				<section>
 					<p>This course is focused on visualization.</p>
-					<p>We will not focus on data management or statistics, however you should be conscientious of how these affect your final product</p>
+					<p style = "font-size: 24px">We will not focus on data management or statistics, however you should be conscientious of how these affect your maps.</p>
 				</section>
 
 				<section>
 					<p>Data will be provided for the course, but you are highly encouraged to use your own!</p>
-					<p style = "font-size: 18px">If you need help cleaning/geocoding data from other courses or projects, reach out to me.</p>
+					<p style = "font-size: 24px">If you need help cleaning/geocoding data from other courses or projects, reach out to me.</p>
 				</section>
 
 				<section>
@@ -101,7 +96,7 @@
 				</section>
 
 				<section>
-					<p>What is ArcGIS Online?</p>
+					<p><a href = 'https://www.esri.com/en-us/arcgis/products/arcgis-online/overview' target="_blank">What is ArcGIS Online?</a></p>
 				</section>
 
 				<section data-background-iframe="https://univofillinois.maps.arcgis.com/apps/dashboards/34fed6aba7ad403791897557698e111b" data-background-interactive>
@@ -134,7 +129,7 @@
 				</section>
 
 				<section>
-					<p>What is Leaflet?</p>
+					<p><a href = 'https://leafletjs.com/' target="_blank">What is Leaflet?</a></p>
 				</section>
 
 				<section data-background-iframe="https://shelleyhoover.github.io/grannyflats/"data-background-interactive>
@@ -171,17 +166,16 @@
 				</section>
 
 <!-- How to lie with maps-->
-	<section><h2>How to Lie with Maps</h2></section>
+	<section><h2><a href = 'https://press.uchicago.edu/ucp/books/book/chicago/H/bo27400568.html' target="_blank">How to "Lie" with Maps</a></h2></section>
 		<!-- Thematic Maps-->
 
-				<section><h3>First, a quick refresher (or crash course) on Thematic Maps</h3>
-				<p>We will create interative thematic maps in this course, as opposed to general reference or topographical maps.</p>
+				<section><h3>First, a quick refresher on Thematic Maps</h3>
+				<p style = "font-size: 24px">We will create interative thematic maps in this course, as opposed to general reference maps or topographical maps.</p>
 				</section>
 
-		
 				<section>
-				<p>Thematic maps are maps designed to show a particular theme</p>
-				<p> Basic types of thematic maps </p>
+				<p>What are thematic maps? Maps designed to show a particular theme</p>
+				<p> Let's review the basic types:</p>
 					<ul>
 						<li>Choropleth</li>
 						<li>Proportional Symbols</li>
@@ -210,40 +204,40 @@
 
 				<section data-background-iframe="https://bao.arcgis.com/InfographicsPlayer/ArcGISPro/BA_Covid19/" data-background-interactive>
 					<div style="position: absolute; width: 10%; left: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>Proportional Symbols Maps use symbols of varying sizes to show a quantitative value</p>
+						<p>Proportional Symbol Maps use symbols of varying sizes to show a quantitative value.</p>
 					</div>
 				</section>
 
 				<section data-background-iframe="https://i.redd.it/f9zqjetoku6x.jpg" data-background-interactive>
 					<div style="position: absolute; width: 10%; right: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>Another proportional symbols example</p>
+						<p>Can be any shape. Note the shape of the geographic unit itself is not augemented. </p>
 					</div>
 				</section>
 
 				<section data-background-iframe="http://www.viewsoftheworld.net/wp-content/uploads/2020/11/USelection2020Cartogram.png" data-background-interactive>
 					<div style="position: absolute; width: 10%; right: -30%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
 						<p>Cartograms distort land area to represent a variable.</p>
-						<p>Color used to represent second variable (and third variable!) </p>
+						<p>Color is used to represent a second variable. (and third variable!) </p>
 					</div>
 				</section>
 
 				<section data-background-iframe="http://racialdotmap.demographics.coopercenter.org/" data-background-interactive>
 					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>Dot Density Maps use a dot to represent the distribution (or density) of a phenomenon</p>
-						<p>Color used to represent second variable</p>
+						<p>Dot Density Maps use a dot to represent the distribution (or density) of a phenomenon.</p>
+						<p>Color is used to represent a second variable.</p>
 					</div>
 				</section>
 
 
 				<section data-background-iframe="https://blogs.cdc.gov/publichealthmatters/2017/03/a-legacy-of-disease-detectives/" data-background-interactive>
 					<div style="position: absolute; width: 10%; left: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>The famous John Snow Cholera map</p>
+						<p>The famous John Snow Cholera map.</p>
 					</div>
 				</section>
 
 				<section data-background-iframe="https://i.redd.it/yt8i60ghbsp11.png" data-background-interactive>
 					<div style="position: absolute; width: 10%; right: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>Flow maps show the movement of a unit or variable. </p> <p>Color & symbol size used to represent second & third variables</p>
+						<p>Flow maps show the movement of a unit or variable. </p> <p>Color & symbol size are used to represent second & third variables</p>
 					</div>
 				</section>
 
@@ -255,7 +249,7 @@
 
 				<section data-background-iframe="https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png" data-background-interactive>
 					<div style="position: absolute; width: 10%; right: -20%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>Minard's flow map of Napoleon's 1812 Russian campaign. </p> <p> Symbol size used to represent second variable.</p>
+						<p>Minard's flow map of Napoleon's 1812 Russian campaign. </p> <p> Symbol size & color used to represent second & third variable.</p>
 					</div>
 				</section>
 		<!-- How to lie with maps-->
@@ -272,7 +266,7 @@
 
 				<section data-background-iframe="https://www.cynthiadavis.net/who-owns-the-west/" data-background-interactive>
 					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>I was not aware this was a concern</p>
+						<p>This map was probably not designed with this in mind, but it is being used to support a stance.</p>
 					</div>
 				</section>
 
@@ -291,14 +285,22 @@
 				</section>
 
 				<section>
-				<p style="font-size:36px">You're free to make map design choices that support your message. But if you're going to, do it on purpose. </p>
-				<p style="font-size:24px"><em>If your goal is to make as objective a map as possible, consider why you're making certain design choices. </em></p>
+				<p style="font-size:36px">If your goal is to make as objective a map as possible, consider why you're making certain design choices. </p>
+				<p style="font-size:24px"><em>Be prepared to have maps that do not look as dramatic or convincing as you'd like. Even though you could easily make them look dramatic and convincing. </em></p>
 				</section>
+
+				<section>
+				<p style="font-size:36px">However, you are free to make map design choices that support your message. </p>
+				<p style="font-size:24px"><em>Preferably you're not out to obfuscate information... </em></p>
+				<p style="font-size:24px" class="fragment"><em>...but if you're going to, let's make sure you do it on purpose. </em></p>
+				</section>
+
+
 
 
 				<section>
 					<img src="pictures/sharpiemap.jpg" > 
-					<p style="font-size:16px"> Either way, make your manipulative design a bit more subtle than this (and also don't literally lie...)</p>
+					<p style="font-size:16px"> Either way, make your manipulative design a bit more subtle than this (also don't literally lie...)</p>
 				</section>
 
 				<section>
@@ -399,7 +401,7 @@
 
 				<section data-background-iframe="https://geographical.co.uk/nature/tectonics/item/3261-earthquakes-cartograms" data-background-interactive>
 					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-						<p>Cartograms rely on the user having both strong mental image of the area, but also one that matches the projection of the non-distorted map.</p>
+						<p>Cartograms rely on the user having both a strong mental image of the area, but also one that matches the projection of the non-distorted map.</p>
 					</div>
 				</section>
 
@@ -462,31 +464,59 @@
 			</section>
 
 			<section data-background-iframe="https://mgimond.github.io/Spatial/symbolizing-features.html" data-background-interactive>
-				<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+				<div style="position: absolute; width: 10%; left: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
 				<p>This is a great resource in general</p>
 				</div>
 			</section>
 
 			<section>	
-				<p style="font-size:24px"></p>
-			<img src="pictures/kindvintensity.png" > 
+			<img src="pictures/qualitativescheme.png" > 
+			</section>
+
+			<section>	
+			<img src="pictures/sequentialscheme.png" > 
+			</section>
+
+			<section>	
+			<img src="pictures/divergentscheme.png" > 
+			</section>
+
+
+
+			<section data-background-iframe="https://i.redd.it/8xqw0rqpzmb21.png" data-background-interactive>
+				<div style="position: absolute; width: 10%; left: -30%; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+				<p>Two uses of color: hue & saturation to display two seperate values</p>
+				</div>
 			</section>
 
 			<section data-background-iframe="https://i.redd.it/9s3a08gmr8j61.png" data-background-interactive>
 				<div style="position: absolute; width: 10%; left: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
-				<p>Can you get an immediate impression of what the colors mean?</p>
+				<p>What is your immediate impression of what the colors mean?</p>
 				</div>
 			</section>
 
 			<section>	
-				<p style="font-size:24px">Do you get an immediate impression of what the colors mean?</p>
+				<p style="font-size:24px">What is your immediate impression of what the colors mean?</p>
 			<img src="pictures/2020coronaviruscases.jpg" > 
 			</section>
 
 
 
+
+
 <!-- Register for AGOL-->
 					
+
+				<section>
+					<p>Before next week login to AGOL</p>
+					<p style="font-size:24px"> You <em>should </em>be able to login with your NetID <a href = 'https://www.arcgis.com/index.html' target="_blank">here</a> but please, just check in case we need to troubleshoot</p> 
+				</section>
+
+
+				<section>
+					<p>Questions?</p>
+				</section>
+
 			</div>
 		</div>
 
