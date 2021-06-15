@@ -8,7 +8,7 @@ Web GIS is a popular term commonly used to refer to "online maps". While profess
 
 The goal of this course is to enable students to build their own online maps using two popular tools: ArcGIS Online (AGOL) and Leaflet.js. Students will gain the technical knowledge to create interactive online maps while learning the principals of effective map design & visualizations.
 
-We will also survey crowdsourced mapping tools such as Open Street Maps, as well as other propriety web mapping tools. While learning these tools, we will discuss current topics concerning online maps: privacy, how maps can misrepresent information, or how they can effectively engage stakeholder groups.  
+We will also survey crowdsourced mapping tools such as Open Street Maps, as well as other propriety web mapping tools. While learning these tools, we will discuss current topics concerning online maps such as privacy, how maps can misrepresent information, or how they can effectively engage stakeholder groups.  
 
 ## Prerequisites:  
 
