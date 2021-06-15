@@ -28,14 +28,14 @@ The pace of this course is fast.  Because many of the lessons build upon previou
 
 | Class |          Date          |                 Topics                  |
 |:-----:|:----------------------:|:---------------------------------------:|
-|  1 |  Wed, June 16        | Introduction to course & web maps |
-|  2 |  Wed, June 23        | Create a web map with AGOL |
-|  3 |  Wed, June 30        | AGOL- Web Mapping Applications |
-|  4 |  Wed, July 7         | AGOL & Humanitarian Street Maps - Crowdsourced Mapping |
-|  5 |  Wed, July 14        | HTML & CSS - Make a Website |
-|  6 |  Wed, July 21        | Create a web map with Leaflet |
-|  7 |  Wed, July 28        | Add interactivity to Leaflet Map |
-|  8 |  Wed, August 4       | Final Presentations & Survey of Other Tools|
+|  1 |  Wed, June 16        | [Introduction to course & web maps](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson1) |
+|  2 |  Wed, June 23        |[ Create a web map with AGOL](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson2) |
+|  3 |  Wed, June 30        |[AGOL- Web Mapping Applications](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson3) |
+|  4 |  Wed, July 7         | [AGOL & Humanitarian Street Maps - Crowdsourced Mapping](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson4) |
+|  5 |  Wed, July 14        |[HTML & CSS - Make a Website](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson5) |
+|  6 |  Wed, July 21        | [Create a web map with Leaflet](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson6) |
+|  7 |  Wed, July 28        | [Add interactivity to Leaflet Map](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson7) |
+|  8 |  Wed, August 4       | [Final Presentations & Survey of Other Tools](https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson8)|
 
 ## Assignments 
 [**Submit assignments to Blackboard**](https://uic.blackboard.com/ultra/course)  
