@@ -3,9 +3,8 @@
 
 <!-- Put a link to the slides so that students can find them -->
 
-➡️ [**Slides**](link)
+➡️ [**Slides**]((https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week2.html#/))
 
-To be posted
 
 ## Overview
 
