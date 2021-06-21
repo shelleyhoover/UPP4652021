@@ -44,4 +44,12 @@ You are not required to use all of the data included, nor are you limited to the
 You will be graded on the inclusion of the required deliverables above, as well as general map legibility and design. Things I will be looking for: Pop-up labels should be easy to decipher, descriptive title, and layer order (ie - points usually should be on top of polygons.) 
 
 ## Additional Resources
+- [Introduction to Geospatial Resources and Formats](https://www.loc.gov/preservation/digital/formats/content/gis_intro.shtml)
+- [ESRI Cholera Map Tutorial](https://downloads.esri.com/learnarcgis/educators/creating-a-basic-story-map.pdf)
+- [LOC List of Geospatial Data Formats](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml)
+- [Change basemap projection in AGOL](https://learn.arcgis.com/en/projects/make-a-web-map-without-web-mercator/)
+- [GISGeography.com list of vector/raster formats](https://gisgeography.com/gis-formats/)
+- [Long list of 1990’s Web Mapping Companies + Screenshots to enjoy](https://www.slideshare.net/stevenfeldman/history-of-web-mapping)
+- [Nice overview of Web GIS history](https://www.smithsonianmag.com/history/unlikely-history-origins-modern-maps-180951617/) 
+
 
