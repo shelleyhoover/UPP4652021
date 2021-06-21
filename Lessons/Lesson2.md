@@ -1,9 +1,7 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # Week 2
 
-<!-- Put a link to the slides so that students can find them -->
-
-➡️ [**Slides**]((https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week2.html#/))
+➡️ [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week2.html#/)
 
 
 ## Overview
