@@ -46,9 +46,9 @@ You will be graded on the inclusion of the required deliverables above, as well 
 ## Additional Resources
 - [Introduction to Geospatial Resources and Formats](https://www.loc.gov/preservation/digital/formats/content/gis_intro.shtml)
 - [ESRI Cholera Map Tutorial](https://downloads.esri.com/learnarcgis/educators/creating-a-basic-story-map.pdf)
-- [LOC List of Geospatial Data Formats](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml)
 - [Change basemap projection in AGOL](https://learn.arcgis.com/en/projects/make-a-web-map-without-web-mercator/)
-- [GISGeography.com list of vector/raster formats](https://gisgeography.com/gis-formats/)
+- [List of vector/raster formats](https://gisgeography.com/gis-formats/)
+- [List of Geospatial Data Formats](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml)
 - [Long list of 1990’s Web Mapping Companies + Screenshots to enjoy](https://www.slideshare.net/stevenfeldman/history-of-web-mapping)
 - [Nice overview of Web GIS history](https://www.smithsonianmag.com/history/unlikely-history-origins-modern-maps-180951617/) 
 
