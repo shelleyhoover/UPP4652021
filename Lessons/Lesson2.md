@@ -25,13 +25,13 @@ You are not required to use all of the data included, or limited to the data pro
 - Basemap
 - Title
 - At least two layers:
--- Must be different vector types (ie: one point layer, one polygon layer. Not two point layers) 
--- One layer that shows variation in quantity 
--- One layer that shows variation in type
--- At least one layer must have a pop-up 
+- -  Must be different vector types (ie: one point layer, one polygon layer. Not two point layers) 
+- - One layer that shows variation in quantity 
+- - One layer that shows variation in type
+- - At least one layer must have a pop-up 
 - Map Overview Page must include: 
--- Description (What is the purpose of this map?)
--- Credits/Attributions
+- - Description (What is the purpose of this map?)
+- - Credits/Attributions
 
 **Deliverables:** 
 •	Document uploaded to Blackboard including: 
