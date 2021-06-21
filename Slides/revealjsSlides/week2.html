@@ -1,0 +1,402 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Week 2</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+		<!-- Lecture Intro -->
+
+				<section>
+					<h3>Web GIS</h3>
+					<h3>Week 2</h3>
+				</section>
+
+		<!-- List -->
+
+				<section>
+					<p> Today's Class </p>
+					<ul>
+						<li>A Brief History of Web Maps</li>
+						<li>Data Formats</li>
+						<li>ArcGIS Online - Make a web map</li>
+						<li>Homework 1</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<section>
+						<h2>A Brief and Incomplete History of Web Maps</h2>
+						<a href="#" class="navigate-down">
+						</a>
+					</section>
+					<!-- 					Analog Map -->
+					<section>
+						<p style = "font-size: 48px"> 600 B.C. - present </p>
+						<h3>Analog Maps</h3>
+							<img src="pictures/week2/ancient_map_bab.gif"> 
+							<p style = "font-size: 16px"> Imago Mundi, Babylonian Map of the World circa 600 B.C. </p>
+					</section>
+					<section>
+							<img src="pictures/week2/barbari1500venicemap.png"> 
+							<p style = "font-size: 16px"> Jacopo de’ Barbari’s map of Venice, c. 1500 </p>
+					</section>
+					<section>
+							<img src="pictures/week2/mercator.jpg"> 
+							<p style = "font-size: 16px"> Mercator's World Map, 1569</p>
+					</section>
+
+					<!-- 					Thematic Maps -->
+
+					<section>
+						<p style = "font-size: 48px"> 1800s </p>
+						<h3>Development of thematic mapping techniques take off</h3>
+					</section>
+					
+					<section>
+						<img src="pictures/week2/seamansmapofyellowfever.jpg" height = "600"> 
+						<p style = "font-size: 16px"> Valentine Seaman, Yellow Fever of New York City, 1797</p>
+					</section>
+
+					<section>
+						<img src="pictures/week2/charlesdupinchoropleth.jpg" height = "600"> 
+						<p style = "font-size: 16px"> Charles Dupin, 1829 Choropleth Map of French Population, 1797</p>
+					</section>
+
+<!-- 						<section data-background-iframe="https://www.davidrumsey.com/luna/servlet/detail/RUMSEY~8~1~28874~1120993:Moral-&-political-chart-of-the-inha" data-background-interactive>
+					</section> -->
+
+					<!-- 					Digital Maps -->
+
+					<section>
+						<p style = "font-size: 48px"> 1990s </p>
+						<h3> Digital Maps </h3>
+						<img src="pictures/week2/tomlinson.png"> 
+						<p style = "font-size: 16px"> Roger Tomlinson, "Father of GIS"</p>
+					</section>
+					
+					<section>
+						<img src="pictures/week2/earlyESRI.png"> 
+						<p style = "font-size: 16px"> ESRI products</p>
+					</section>
+
+					<section>
+					<img src="pictures/week2/8BaseLayersofTheNationalMap.jfif"> 
+					<p style = "font-size: 16px"> USGS Base Layers of The National Map</p>
+					</section>
+
+					<section>
+						<p style = "font-size: 48px"> 1990s </p>
+							<h3> Maps hit the web </h3>
+						<section>
+							<img src="pictures/week2/mapquestcirca2005.jpg"> 
+						</section>
+					</section>
+
+					<section>
+						<h2>Mid-2000</h2>
+						<h3> Google maps and the map revolution </h3>
+							<img src="pictures/week2/googlemaps2005.png">
+						<br>
+						<a href="#/2">
+							<img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+						</a>
+					</section>
+				</section>
+
+			<section>
+					<h3> What was so revolutionary about google maps? </h3>
+					<p> The Slippy Map! </p>
+			</section>
+
+			<section>
+				<section data-background-iframe="https://xserver2.cloud.ptvgroup.com/dashboard/Content/TechnicalConcepts/Rendering/ShowTileOverlays.shtm" data-background-interactive></section>
+			</section>
+
+			<section>
+					<h3> AKA - Tiled Maps</h3>
+					<img src="pictures/week2/tilepyramid2.png">
+			</section>
+
+			<section>
+				<img src="pictures/week2/TilePyramid.jpg" height = "700">
+			</section>
+
+			<section>
+				<p> Notice anything?</p>
+				<img src="pictures/week2/tiledmap3.png"> 
+			</section>
+
+			<section>
+				<img src="pictures/week2/mercator2.png"> 
+				<p style = "font-size: 16px"> Our fav, Mercator</p>
+			</section>
+
+			<section>
+				<p> Most web maps have a base map with a (web) Mercator projection </p>
+				<p style = "font-size: 16px"><a href = "https://learn.arcgis.com/en/projects/make-a-web-map-without-web-mercator/" target="_blank">We will not go over changing base map projections in this course, but if you'd like to here is a good tutorial for AGOL</a>
+			</section>
+
+
+			<section>
+				<p> Let's talk about basemaps v. feature layer maps</p>
+			</section>
+
+			<section>
+				<section data-background-iframe="https://learngis.maps.arcgis.com/home/webmap/viewer.html?webmap=6fb43b7db1d34716aad53583406f98b1" data-background-interactive></section>
+			</section>
+
+			<section>
+				<img src="pictures/week2/layerdiagram.png"> 
+			</section>
+
+
+<!-- Data Types -->
+
+			<section>
+				<p> There are two primary spatial data types used in GIS:</p>
+					<ul>
+						<li>Raster</li>
+						<li>Vector</li>
+					</ul>
+			</section>
+
+			<section>
+				<img src="pictures/week2/rastervector.png"> 
+			</section>
+
+
+			<section>
+					<ul>
+						<li>Not always, but for the sake of simplicity, basemaps are usually rasters and feature layers are usually vectors.</li>
+						<li>We are concerned with manipulating and adding feature layers in this course.</li>
+					</ul>
+			</section>
+
+
+
+			<section>
+				<p> Common Vector Data Types</p>
+					<ul>
+						<li>Esri Shapefile</li>
+						<li>Geographic JavaScript Object Notation (GeoJSON)</li>
+						<li>Google Keyhole Markup Language (KML/KMZ)</li>
+						<li>OpenStreetMap OSM XML</li>
+					</ul>
+				<p> <a href = "https://gisgeography.com/gis-formats/"> A more comprehensive list if you're curious </a> </p>
+			</section>
+
+			<section>
+				<p> Honorary mention: Comma Separated Values (.CSV) </p>
+			</section>
+
+			<section>
+				<p> Vectors are composed of:</p>
+					<ul>	
+						<li>Points</li>
+						<li>Lines</li>
+						<li>Polygons</li>
+					</ul>
+			</section>
+						
+			<section>
+				<img src="pictures/week2/townville.png"> 
+			</section>
+
+				<section>
+				<p> Points:</p>
+				<img src="pictures/week2/points.png">
+					<ul>
+						<li>Each point feature is represented as a single coordinate pair (x,y)</li>
+						<li>No area, no length</li>
+						<li>Visual Options: change size, color, symbol shape</li>
+					</ul>
+			</section>
+
+			<section>
+				<img src="pictures/week2/townvillepoints.png"> 
+			</section>
+
+				<section>
+				<p> Lines</p>
+				<img src="pictures/week2/lines_example.png">
+					<ul>
+						<li>Represented as a series of x,y points with 2 or more connected vertices</li>
+						<li>No area, but has length</li>
+						<li>Visual Options: line style, line thickness, or color</li>
+					</ul>
+			</section>
+
+			<section>
+				<img src="pictures/week2/townvillelines.png"> 
+				<p style = "font-size: 16px"><em>Check: What unit is the length in? Is this the same as the unit the map is projected in? </em></p>
+			</section>
+
+				<section>
+				<p>Polygons</p>
+				<img src="pictures/week2/polygonexample.png">
+					<ul>
+						<li>Enclosed shape with 3 or more vertices</li>
+						<li>Has area</li>
+						<li>Visual Options: fill color, fill pattern, outline color, outline pattern</li>
+					</ul>
+			</section>
+
+			<section>
+				<img src="pictures/week2/townvillepolygons.png"> 
+			</section>
+
+			<section>
+				<p>Attribute types</p>
+					<ul>
+						<li>Integer:</li>
+							<ul>
+								<li>non-fractional numbers </li>
+								<li>0,1,2,8009, etc</li>
+							</ul>
+						<li>Real: </li>
+							<ul>
+								<li>fractional numbers</li>
+								<li> 0.13, 2.5, 3.0, etc</li>
+							</ul>
+						<li>String: </li>
+							<ul>
+								<li> a “string” of characters</li>
+								<li>“My dog is barking”, “0134”, “I have 17 dogs”</li>
+							</ul>
+					</ul>
+			</section>
+
+			<section>
+				<img src="pictures/week2/attributetypes.png">
+			</section>
+
+			<section>
+				<p> Note that numerical values can be stored as strings</p>
+			</section>
+
+			<section>
+				<img src="pictures/week2/attributetypesstring.png">
+			</section>
+
+
+
+<!--  ARCGIS ONLINE -->
+
+				<section>
+					<p>Okay, let's finally make a map!</p>
+				</section>
+
+				<section id="fragments">
+					<h3>Features of ArcGIS Online</h3>
+
+					<ul>
+					<li class="fragment">Host Web Maps</li>
+					<li class="fragment">Host Data</li>
+					<li class="fragment">Share Maps</li>
+					<li class="fragment">Create organizational groups for collaboration</li>
+					<li class="fragment">Easily create web apps/story maps</li>
+					</ul>
+				</section>
+
+
+				<section>
+					<p>5 steps to making a web map in ArcGIS Online</p>
+					<ol>
+						<li>Choose Basemap</li>
+						<li>Add your Data</li>
+						<li>Customize/Select Symbology</li>
+						<li>Save</li>
+						<li>Share the Finished Product</li>
+					</ol>
+			</section>	
+
+			<section>
+				<p>After logging in, select "Map"</p>
+				<img src="pictures/week2/agol1.png">
+			</section>
+
+			<section>
+				<p>Select a base map</p>
+				<img src="pictures/week2/agol3.png">
+			</section>
+
+			<section>
+				<p>Add your data</p>
+				<img src="pictures/week2/agol2.png">
+			</section>
+
+			<section>
+				<p>AGOL will make recommendations on how to display</p>
+				<img src="pictures/week2/agol4.png">
+			</section>
+
+			<section>
+				<p>Edit symbology (and other layer info)</p>
+				<img src="pictures/week2/agol6.png">
+			</section>
+
+			<section>
+				<p>Save</p>
+				<img src="pictures/week2/agol9.png">
+			</section>
+
+			<section>
+				<p>Share</p>
+				<img src="pictures/week2/agol10.png">
+			</section>
+
+			<section>
+				<p>Map Overview Page</p>
+				<img src="pictures/week2/agol10.png">
+			</section>
+
+
+
+			<section>
+				<p>Homework</p>
+				<p>Note: Homework 1 & 2 build into Project 1</p>
+				<p>Be prepared to briefly (~3-5 minutes) present your Project 1 map Week 5</p>
+			</section>
+
+			<section>
+				<p>Homework 1</p>
+			</section>
+
+				<section>
+					<p>Questions?</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
