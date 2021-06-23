@@ -50,6 +50,7 @@ You will be graded on the inclusion of the required deliverables above, as well 
 - [Nice overview of Web GIS history](https://www.smithsonianmag.com/history/unlikely-history-origins-modern-maps-180951617/) 
 - [Use ACS Data from AGOL Living Atlas](https://www.arcgis.com/apps/Cascade/index.html?appid=c6a35a434a8f4913b9c35022290efdd0) 
 - [Data.gov](https://catalog.data.gov/dataset) 
+- [USGS Data](https://apps.nationalmap.gov/services/) 
 
 
 ## Maps from the Lecture
