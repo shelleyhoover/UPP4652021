@@ -48,6 +48,8 @@ You will be graded on the inclusion of the required deliverables above, as well 
 - [List of Geospatial Data Formats](https://www.loc.gov/preservation/digital/formats/fdd/gis_fdd.shtml)
 - [Long list of 1990’s Web Mapping Companies + Screenshots to enjoy](https://www.slideshare.net/stevenfeldman/history-of-web-mapping)
 - [Nice overview of Web GIS history](https://www.smithsonianmag.com/history/unlikely-history-origins-modern-maps-180951617/) 
+- [Use ACS Data from AGOL Living Atlas](https://www.arcgis.com/apps/Cascade/index.html?appid=c6a35a434a8f4913b9c35022290efdd0) 
+- [Data.gov](https://catalog.data.gov/dataset) 
 
 
 ## Maps from the Lecture
