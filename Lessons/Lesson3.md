@@ -18,7 +18,7 @@
    - StoryBuilder: storymaps.arcgis.com 
 2. WebApp: Students can choose to use a Configured App or use the Web App Builder
    - Configurable app: Create Web App > Configurable App. Do not select a StoryMap template. 
-   - Web App Builder: From web map information page click Create Web App Web App Builder. 
+   - Web App Builder: From web map information page click Create Web App > Web App Builder. 
 
 The purpose of this homework is not to be laborious, but to allow students to explore both tools before creating their AGOL Project.   
 
@@ -36,22 +36,22 @@ The purpose of this homework is not to be laborious, but to allow students to ex
 	 4. At least one additional media content (image, video, etc) 
 
 2. Web App: 
-   -In the project log:
-   	- Indicate either the Theme Selected or the Preconfigured App Template selected and why. (Brief, 1-2 sentences)
-  	- Describe what widgets were used and how they help the user of your application understand/interact with your map. (Brief, 1-2 sentences)
+   - In the project log:
+     - Indicate either the Theme Selected or the Preconfigured App Template selected and why. (Brief, 1-2 sentences)
+     - Describe what widgets were used and how they help the user of your application understand/interact with your map. (Brief, 1-2 sentences)
    - Web App must include: 
-   - Include at least two off-panel widgets interacting with map (Off-panel = widgets that did not come pre-loaded with the theme or template.)  
+     - Include at least two off-panel widgets interacting with map (Off-panel = widgets that did not come pre-loaded with the theme or template.)  
 
 Projects will be scored on the inclusion of the above criteria, plus:
-	- Screen-shots of important features & final map. 
-	- Well-organized data
-	- Clear, useful pop-ups
-	- Meaningful title 
-	- Understandable legend
-	- Simple, purposeful cartography
-	- Overview Page including:
-	- Descriptive text providing context, summarizing the purpose of the map, and explaining its components. 
-	- Credits/source information 
+- Screen-shots of important features & final map. 
+- Well-organized data
+- Clear, useful pop-ups
+- Meaningful title 
+- Understandable legend
+- Simple, purposeful cartography
+- Overview Page including:
+- Descriptive text providing context, summarizing the purpose of the map, and explaining its components. 
+- Credits/source information 
 
 
 ## Links & Resources
