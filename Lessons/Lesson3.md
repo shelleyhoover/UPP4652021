@@ -7,9 +7,9 @@
 
 ## Assignment
 
-#AGOL Web App & Story Map
+**AGOL Web App & Story Map**
 
-#Due: Tue, July 6th (11:59pm) 
+**Due: Tue, July 6th (11:59pm)**
 
 **Overview of the assignment:** Students will create two AGOL Applications, 1) a Story Map and 2) a Web App. 
 
@@ -22,13 +22,11 @@
 
 The purpose of this homework is not to be laborious, but to allow students to explore both tools before creating their AGOL Project.   
 
-#Deliverable:Project log with URLs to application and story map, including the following information: 
+**Deliverable:** Project log with URLs to application and story map, including the following information: 
 
 **1) Story Map:**
-     - Explain which template (Configurable App or StoryBuilder Quick Start) you chose, or why you chose to build from “scratch”. (Brief, 1-2 sentences)
-
-       *Story Map must include: 
-
+     -In the project log, explain which template (Configurable App or StoryBuilder Quick Start) you chose, or why you chose to build from “scratch”. (Brief, 1-2 sentences)
+      - *Story Map must include:* 
 	- At least one web map 
 	- At least one immersive section. For the purposes of this homework, “immersive section” includes: 
 	  - If using StoryBuilder from scratch, use Block Palette Immersive Section options: Slideshow, SideCacar, and Map tour 
