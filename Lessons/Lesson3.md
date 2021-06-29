@@ -42,7 +42,7 @@ The purpose of this homework is not to be laborious, but to allow students to ex
    - Web App must include: 
      - Include at least two off-panel widgets interacting with map (Off-panel = widgets that did not come pre-loaded with the theme or template.)  
 
-Projects will be scored on the inclusion of the above criteria, plus:
+The applications will be scored on the inclusion of the above criteria, plus:
 - Screen-shots of important features & final map. 
 - Well-organized data
 - Clear, useful pop-ups
