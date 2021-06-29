@@ -24,35 +24,34 @@ The purpose of this homework is not to be laborious, but to allow students to ex
 
 **Deliverable:** Project log with URLs to application and story map, including the following information: 
 
-**1) Story Map:**
-     -In the project log, explain which template (Configurable App or StoryBuilder Quick Start) you chose, or why you chose to build from “scratch”. (Brief, 1-2 sentences)
-      - *Story Map must include:* 
-	- At least one web map 
-	- At least one immersive section. For the purposes of this homework, “immersive section” includes: 
-	  - If using StoryBuilder from scratch, use Block Palette Immersive Section options: Slideshow, SideCacar, and Map tour 
-	  - If using StoryBuilder Quickstart, Sidecar, Guided map tour, and explorer map tour works. 
-	  -If using configurable apps: Cascade Template uses an immersive section, Story Builder uses SideCar. You should be able to add immersive sections in the other configurable apps, but your options might be limited.   
-  	  - Have some narrative text (1-2 paragraphs) 
-	  - At least one additional media content (image, video, etc) 
+1. Story Map:
+     - In the project log, explain which template (Configurable App or StoryBuilder Quick Start) you chose, or why you chose to build from “scratch”. (Brief, 1-2 sentences)
+     - Story Map must include: 
+	 1. At least one web map 
+	 2. At least one immersive section. For the purposes of this homework, “immersive section” includes: 
+	    - If using StoryBuilder from scratch, use Block Palette Immersive Section options: Slideshow, SideCacar, and Map tour 
+	    - If using StoryBuilder Quickstart, Sidecar, Guided map tour, and explorer map tour works. 
+	    - If using configurable apps: Cascade Template uses an immersive section, Story Builder uses SideCar. You should be able to add immersive sections in the other configurable apps, but your options might be limited.   
+  	 3. Have some narrative text (1-2 paragraphs) 
+	 4. At least one additional media content (image, video, etc) 
 
-**2) Web App:**
-- Indicate either the Theme Selected or the Preconfigured App Template selected and why. (Brief, 1-2 sentences)
-- Describe what widgets were used and how they help the user of your application understand/interact with your map. (Brief, 1-2 sentences)
+2. Web App: 
+   -In the project log:
+   	- Indicate either the Theme Selected or the Preconfigured App Template selected and why. (Brief, 1-2 sentences)
+  	- Describe what widgets were used and how they help the user of your application understand/interact with your map. (Brief, 1-2 sentences)
+   - Web App must include: 
+   - Include at least two off-panel widgets interacting with map (Off-panel = widgets that did not come pre-loaded with the theme or template.)  
 
-Web App must include: 
-
-- Include at least two off-panel widgets interacting with map (Off-panel = widgets that did not come pre-loaded with the theme or template.)  
-
-*Projects will be scored on the inclusion of the above criteria, plus:*
-•	Screen-shots of important features & final map. 
-•	Well-organized data
-•	Clear, useful pop-ups
-•	Meaningful title 
-•	Understandable legend
-•	Simple, purposeful cartography
-•	Overview Page including:
-o	Descriptive text providing context, summarizing the purpose of the map, and explaining its components. 
-o	Credits/source information 
+Projects will be scored on the inclusion of the above criteria, plus:
+	- Screen-shots of important features & final map. 
+	- Well-organized data
+	- Clear, useful pop-ups
+	- Meaningful title 
+	- Understandable legend
+	- Simple, purposeful cartography
+	- Overview Page including:
+	- Descriptive text providing context, summarizing the purpose of the map, and explaining its components. 
+	- Credits/source information 
 
 
 ## Links & Resources
