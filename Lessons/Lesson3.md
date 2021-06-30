@@ -56,6 +56,7 @@ The applications will be scored on the inclusion of the above criteria, plus:
 
 ## Links & Resources
 
+- [Map Design Principals](https://www.esri.com/news/arcuser/0112/files/design-principles.pdf)
 - [List of AGOL Apps](https://www.esri.com/en-us/arcgis/products/apps-for-everyone/overview) 
 - [AGOL Map-Based Apps]( https://doc.arcgis.com/en/arcgis-online/create-maps/create-map-apps.htm) 
 - [Understanding AGOL Credits](https://doc.arcgis.com/en/arcgis-online/administer/credits.htm) 
@@ -65,3 +66,13 @@ The applications will be scored on the inclusion of the above criteria, plus:
 - [List of AGOL Widgets](https://doc.arcgis.com/en/web-appbuilder/create-apps/widget-about.htm) 
 - [Widget Overview]( https://doc.arcgis.com/en/web-appbuilder/create-apps/widget-overview.htm) 
 - [Configurable StoryMap Templates](https://guides.library.illinois.edu/c.php?g=742281&p=5324399) 
+- [Text on Maps Guide](https://www.e-education.psu.edu/geog486/node/644)
+- [Variable Contrast](http://wiki.gis.com/wiki/index.php/Contrast_(map_design)
+- [Figure Ground Contrast](http://wiki.gis.com/wiki/index.php/Figure-ground_contrast)
+- [Multivaribale Map Examples](https://vallandingham.me/multivariate_maps.html)
+
+## Map Example Sources
+
+- [Explanatory Text Example](https://www.researchgate.net/figure/Example-of-map-and-explanatory-information-to-illustrate-the-spatial-pattern-of_fig2_23660838)
+- [Figure Ground](http://www.u.arizona.edu/~kbailey/GEOG416A/module6.htm)
+- [Multiple Variable](https://vallandingham.me/multivariate_maps.html)
