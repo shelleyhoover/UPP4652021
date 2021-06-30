@@ -10,6 +10,7 @@
 **AGOL Web App & Story Map**
 
 **Due: Tue, July 6th (11:59pm)**
+**Submit Project Log to Blackboard**
 
 **Overview of the assignment:** Students will create two AGOL Applications, 1) a Story Map and 2) a Web App. 
 
