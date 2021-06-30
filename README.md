@@ -55,8 +55,9 @@ Student performance will be evaluated on the basis of four homework assignments 
 
 |  Total |                  |
 |:-----:|:----------------------:|
-|  40 points |  4 homework assignments x 10 points each       
-|  60 points |  2 projects x 30 points each       
+|  20 points |  HW 1 & 3 x 10 points each       
+|  30 points |  HW 2 & 4 x 15 points each       
+|  50 points |  2 projects x 25 points each       
 |  100 points |  Total       | 
 
 ##  Information & Tutorials
