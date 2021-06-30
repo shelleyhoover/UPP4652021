@@ -2,7 +2,7 @@
 # Week 3 - ArcGIS Online Applications
 
 <!-- Put a link to the slides so that students can find them -->
-➡️ [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week3.html)
+➡️ [**Week 3 Lecture Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week3.html)
 
 
 ## Assignment
