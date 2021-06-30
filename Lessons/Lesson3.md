@@ -1,15 +1,15 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
-# Week 3
+# Week 3 - ArcGIS Online Applications
 
 <!-- Put a link to the slides so that students can find them -->
-➡️ [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week3.html)
+➡️ [**Week 3 Lecture Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week3.html)
 
 
 ## Assignment
 
 **AGOL Web App & Story Map**
 
-**Due: Tue, July 6th (11:59pm)**
+**Due: Tue, July 6th (11:59pm)** Submit Project Log to Blackboard
 
 **Overview of the assignment:** Students will create two AGOL Applications, 1) a Story Map and 2) a Web App. 
 
