@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Week X</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+		<!-- Lecture Intro -->
+
+				<section>
+					<h3>Hello!</h3>
+					<h3>Welcome to Week x of Web GIS</h3>
+				</section>
+
+		<!-- List -->
+
+				<section>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+					</ul>
+				</section>
+				<section>
+					<ul><li>list</li>
+						<li>list</li>
+					</ul>
+				</section>
+
+		<!-- Fragment-->
+
+				<section id="fragments">
+					<h3>Heading</h3>
+
+					<ol>
+					<li class="fragment">fragmen</li>
+					<li class="fragment">fragment</li>
+					</ol>
+				</section>
+
+		<!-- Style Text & Link-->
+				<section>
+					<p style = "font-size: 24px"><em>Emphpasis</em></p>
+					<li><a href = 'https://github.com/shelleyhoover/UPP4652021' target="_blank">Link</a></li>
+				</section>
+
+				<section>
+					<p>Data will be provided for the course, but you are highly encouraged to use your own!</p>
+					<p style = "font-size: 24px">If you need help cleaning/geocoding data from other courses or projects, reach out to me.</p>
+				</section>
+
+		<!-- Grid-->
+				<section>
+					<h2>Grid</h2>
+					<table>
+						<tbody>
+							<tr><th>1</th>
+								<td>
+									<li>Item A</li>
+									<li>Item b</li>
+								</td>
+							</tr>
+							<tr><th>2</th>
+								<td>
+									<li>Item A</li>
+									<li>Item b</li>
+								</td>
+							</tr>
+							<tr><th>3</th>
+								<td>
+									<li>Item A</li>
+									<li>Item b</li>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+<!-- embed a website as background -->
+
+				<section data-background-iframe="https://coronavirus.jhu.edu/us-map" data-background-interactive>
+					<div style="position: absolute; width: 10%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 14px; text-align: left;">
+						<p>With some text.</p>
+					</div>
+				</section>
+
+<!-- Picture -->
+				<section>	
+				<p style="font-size:16px"><em>Can be any shape. Note the shape of the geographic unit itself is not augemented.</em></p>
+				<img src="pictures/whoownsthewest.jpg" > 
+				</section>
+
+			
+
+				<section>
+					<p>Questions?</p>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

@@ -13,3 +13,5 @@ To be posted
 
 ## Additional Resources
 
+## Map Sources
+[Easily the best map ever, objectively. Scroll to the end of the series](https://collections.lib.uwm.edu/digital/collection/agdm/id/7649)
