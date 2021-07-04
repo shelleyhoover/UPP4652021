@@ -10,6 +10,22 @@
 
 ## Extra Credit
 
+**For extra credit: Learn the basics of Open Street Mapping, Humanitarian OpenStreet Map Team, and how to contribute to projects.**  
+ 
+1.	Log into the HOT OSM Tasking Manager & create OSM ID https://tasks.hotosm.org/
+2.	Choose a project – it must be a beginner task, and should be less than 90% completed
+3.	Read through ALL INSTRUCTIONS for the project
+4.	Map one tile using the HOT editor of your choice. 
+5.	When in doubt, see step-by-step instructions: https://learnosm.org/en/coordination/tasking-manager3/ 
+
+**Extra Credit Deliverables: In you project log, submit a 1-2 paragraph summary to blackboard, including:**
+- Your OSM ID and link to completed tasks in editor system.
+- 1-2 sentences describing project, why HOT was needed, and the tasks you accomplished.
+
+**Each submitted tile will be worth 2 points, for up to 10 points. Open until 8/4**
+- If tiles come from separate projects, include a description for each
+- Indicate the number of tiles completed in the log
+- If you already submitted the extra credit and decide to complete more tiles, add the additional info to your document and resubmit to blackboard. 
 
 
 ## Links
