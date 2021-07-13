@@ -18,13 +18,16 @@ To be posted
 [Position Elements](https://www.w3schools.com/css/css_positioning.asp)
 [CSS Predefined Color Names](https://www.w3schools.com/colors/colors_names.asp)
 [Other CSS Color Options](https://www.w3schools.com/cssref/css_colors_legal.asp)
+[Example Repository](https://github.com/shelleyhoover/upp465example)
 
 ## Useful Tools:
+[Github](https://github.com/)
 [Sublime Text](https://www.sublimetext.com/)
 [Codepen (sandbox)](https://codepen.io/)
 [JSFiddle (sandbox)](https://jsfiddle.net/)
 
 ## Tutorials: 
+[Set up Github Pages](https://pages.github.com/)
 [W3 Schools - Build a Website](https://www.w3schools.com/howto/howto_website.asp)
 [Coursera HTML, CSS, & JavaScript](https://www.coursera.org/learn/html-css-javascript-for-web-developers)
 
