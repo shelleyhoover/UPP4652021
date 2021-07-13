@@ -4,19 +4,21 @@
 ➡️ [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week5.html)
 
 ## Assignment
-**Create a webpage and embed your AGOL**
+**Create a webpage with your AGOL map**
 
 The objective of this assignment is to use HTML & CSS to create a simple webpage to display your AGOL map. The structure of this webpage will be used to display the leaflet map you will be creating in Homework 4 & Project 1. 
 
 **Due:  July 20, 11:59pm**
 
 Deliverables: 
+Document uploaded to blackboard including: 
 - Link to github webpage  [Example](https://shelleyhoover.github.io/upp465example/)
 - Link to github project repository [Example](https://github.com/shelleyhoover/upp465example)
+- Screenshot of final webpage
 
 **Website should have:** 
 - Introduction text for your map that is styled (do not leave default HTML styling) 
-- ArcGIS online webpage embedded (*note: when testing your webpage locally your AGOL map will not load. It should load when uploading to github. Be sure to leave time to test this.*)
+- ArcGIS online webpage embedded (*Note: Your AGOL map will not load when testing your webpage locally. It should load when uploading to github. Be sure to leave time to test this.*)
 
 **Github Repository should have:**
 - README file introducing project
