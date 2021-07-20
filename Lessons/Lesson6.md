@@ -11,5 +11,8 @@ To be posted
 ## Assignment
 
 ## Additional Resources
+[JavaScript Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+[JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
+[Define Variables in JavaScript](https://www.w3schools.com/js/js_variables.asp) 
 
 
