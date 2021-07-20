@@ -6,13 +6,20 @@
 
 To be posted
 
-## Overview
 
 ## Assignment
 
-## Additional Resources
+## JavaScript Reference
 [JavaScript Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 [JavaScript Object Basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 [Define Variables in JavaScript](https://www.w3schools.com/js/js_variables.asp) 
+[Numerical Operators](https://www.w3schools.com/js/js_operators.asp)
+[JavaScript Object Properties](https://www.w3schools.com/js/js_object_properties.asp)
+[Arrays](https://www.w3schools.com/js/js_arrays.asp)
+[Reserved Words in JavaScript](https://www.w3schools.com/js/js_reserved.asp)
 
+##Leaflet Reference
+[Leaflet Quickstart](https://leafletjs.com/examples/quick-start/)
+[Collection of Basemap Layers](https://leaflet-extras.github.io/leaflet-providers/preview/)
+[Leaflet Basemap Provider - copy link to paste into head](https://github.com/leaflet-extras/leaflet-providers)
 
