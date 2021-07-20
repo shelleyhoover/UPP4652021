@@ -18,7 +18,7 @@
 - [Arrays](https://www.w3schools.com/js/js_arrays.asp)
 - [Reserved Words in JavaScript](https://www.w3schools.com/js/js_reserved.asp)
 
-##Leaflet Reference
+## Leaflet Reference
 - [Leaflet Quickstart](https://leafletjs.com/examples/quick-start/)
 - [Collection of Basemap Layers](https://leaflet-extras.github.io/leaflet-providers/preview/)
 - [Leaflet Basemap Provider - copy link to paste into head](https://github.com/leaflet-extras/leaflet-providers)
