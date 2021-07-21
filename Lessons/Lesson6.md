@@ -63,4 +63,5 @@ polygons.
 - [Leaflet Quickstart](https://leafletjs.com/examples/quick-start/)
 - [Collection of Basemap Layers](https://leaflet-extras.github.io/leaflet-providers/preview/)
 - [Leaflet Basemap Provider - copy link to paste into head](https://github.com/leaflet-extras/leaflet-providers)
+- [Style Icons](https://leafletjs.com/examples/custom-icons/)
 
