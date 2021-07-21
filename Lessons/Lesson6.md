@@ -20,7 +20,7 @@ around/exploring Leaflet. Do not be afraid to break things while you’re figuri
 map online.
 - The geometry features & their popups on this homework can be silly/random. We will be using different
 data for the final project. The final project will include more complicated datasets & data manipulation. 
-- I have uploaded the JavaScript code covered in the class repository [here.](https://github.com/shelleyhoover/upp465example/tree/JavaScript-Examples)
+- I have uploaded the JavaScript code covered in the class repository [*here.*](https://github.com/shelleyhoover/upp465example/tree/master/week6)
   - Index.html has my final leaflet map for reference. While I expect you to reference it, do not copy/paste
 from my file to yours. Take the time to rewrite the code and make it your own, it will help you understand
 how it all works together.
@@ -64,4 +64,5 @@ polygons.
 - [Collection of Basemap Layers](https://leaflet-extras.github.io/leaflet-providers/preview/)
 - [Leaflet Basemap Provider - copy link to paste into head](https://github.com/leaflet-extras/leaflet-providers)
 - [Style Icons](https://leafletjs.com/examples/custom-icons/)
+
 
