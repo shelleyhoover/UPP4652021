@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Week 7</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+<!-- Lecture Intro -->
+
+				<section>
+					<h3>Week 7</h3>
+					<h3>GeoJSONs & Conditional Formatting</h3>
+				</section>
+
+				<section>
+					<p>Overview of Today's Class</p>
+					<ul>
+						<li>Homework Notes</li>
+						<li>GeoJSON Overview</li>
+						<li>Conditional Formatting</li>
+						<li>Homework</li>
+					</ul>
+				</section>
+
+<!-- Homework Notes --> 
+<section>
+	<p>Homework Notes</p>
+		<ul>
+			<li>HW notes</li>
+		</ul>
+</section>
+<!-- JavaScript --> 
+
+<section> 
+	<p> GeoJSONs </p> 
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Similar to shapefiles, GeoJSON is a format for storing geographic features & their non-spatial attributes</p> 
+	<p style = "font-size: 24px"> Based on JSON (JavaScript Object Notation)</p> 
+	<p style = "font-size: 16px"> Can be used in ArcGIS Online & Desktop, QGIS, etc…
+ </p>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Let's talk about some practical GeoJSON things before we get into the nitty gritty.</p> 
+
+ </p>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Convert Shapefiles (& other geoformats) to GeoJSON </p>
+</section>
+
+<section> 
+	<p style = "font-size: 24px">ArcGIS Online</p>
+	<ol>
+	<li style = "font-size: 24px">From your content, select Feature Layer </li>
+	<li style = "font-size: 24px">Click "export data" from options on left </li>
+	<li style = "font-size: 24px">Export as GeoJSON & select where to save (somewhere in your AGOL content) </li>
+	<li style = "font-size: 24px">Navigate to your newly created GeoJSON, click, and download! </li>
+	</ol>
+</section>
+
+<section> 
+	<p style = "font-size: 24px">QGIS</p>
+	<ul>
+	<li style = "font-size: 24px">From layers section, right click layer & export to: </li>
+		<ul> 
+	<li style = "font-size: 16px">Format: GeoJSON</li>
+	<li style = "font-size: 16px">CRS: WGS 84</li>
+	<li style = "font-size: 16px">Layer Options  (COORDINATE_PRECISION  = 5 <em>(5 decimal places is close enough to get you to a few feet with lat log) </em> </li>
+	</ul>
+	</ul>
+	<p style = "font-size: 16px">It is a bit more complicated with ArcGIS Map/Pro, but instructions are linked in the course page. 
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> How to add GeoJSON data to your leaflet map? </p>
+	 
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Last week we manually wrote features to add to the map</p>
+	<p style = "font-size: 24px"> This week, we will link to a GeoJSON file.</p>
+	<img src="pictures/week6/features3.png" >
+</section>
+
+<section data-auto-animate>
+	<p style = "font-size: 24px">First: we need to add jQuery (javacript library) & ajax (data retrieval tool for javascript). Copy & paste the following headings into your html heading: </p>
+
+					<pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+							<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+							<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+					</code></pre>
+					<p style = "font-size: 16px"><em> I won't make you hunt it down this time :) </em></p>
+				</section>
+
+<section> 
+	<p style = "font-size: 24px"> Next, under your Leaflet map, use jQuery & leaflet methods to add the geoJSON data to your map. </p> 
+	<img src="pictures/week7/jquery2.png" >
+	<p style = "font-size: 16px"> $ = jQuery method
+(similar to “L” for leaflet)
+  </p>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> That's it! You've added the GeoJSON features to your map</p>
+	<img src="pictures/week7/jquery3.png" height = 600>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> The annoying thing:</p>
+	<p style = "font-size: 24px"> Similar to embedding an AGOL map, there’s a security quirk (well, a very useful feature) that does not allow you to view the geojson data locally. The data will load on upload to Github. Give yourself time to upload & test as you work on the project. 
+</p>
+	<img src="pictures/week7/jquery4.png" >
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> So this is not useful to look at. Let's break down GeoJSON's so we can style them.</p>
+	<img src="pictures/week7/jquery3.png" height = 600>
+</section>
+
+<section> 
+	<p>GeoJSON Syntax</p>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> GeoJSONs are composed of at least one object</p>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> These can be types, which contain the geometry of the object and nothing more.</p>
+	<img src="pictures/week7/syntax1.png" >
+</section>
+ 
+ <section> 
+	<p style = "font-size: 24px"> Note: Multi-types represent a single object that has multiple parts.</p>
+	<p style = "font-size: 16px"> For example, Michigan is one object composed of two separate polygons (the upper and lower peninsula) </p>
+	<img src="pictures/week7/syntax2.png" >
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Types can be combined with properties to create a Feature object. </p>
+	<img src="pictures/week7/feature1.PNG" >
+</section>
+
+<section> 
+	<img src="pictures/week7/feature2.png" >
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Multiple features can be combined into a Feature Collection </p>
+	<img src="pictures/week7/feature4.png" >
+</section>
+
+<section> 
+	<img src="pictures/week7/feature5.png" height =400>
+</section>
+
+<section> 
+	<img src="pictures/week7/feature3.png" >
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Don't stress when you open your GeoJSON and it looks like this</p>
+	<img src="pictures/week7/geojson1.png" >
+</section>
+
+<section> 
+	<img src="pictures/week7/geojson2.png" >
+</section>
+
+<section> 
+	<img src="pictures/week7/geojson3.png" >
+</section>
+
+<section> 
+	<p>So how do we make this look reasonable?</p>
+	<img src="pictures/week7/jquery3.png" height = 400>
+	<p style = "font-size: 24px"> The default style for GeoJSON points are the default blue Leaflet markers </p>
+</section>
+
+<section> 
+	<p>Change Default Icon to Circles</p>
+	<p style = "font-size: 24px"> Step 1: Add an object within the L.geojson data parameter. <br><em> (add a comma then curly { } brackets after "data")</em> </p>
+	<img src="pictures/week7/style1.png">
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Step 2: Add a property. <br> Inside the curly brackets, add a built-in geojson function called “pointToLayer” <br> pointToLayer has two parameters: feature, latlng. Leave these. <em> (latlng returns the point coordinates) </em> </p>
+
+	<img src="pictures/week7/style2.png">
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Step 3: Inside pointToLayer function, call (return) a “new” L.CircleMarker <br> In the parameters of the leaflet function CircleMarker, you’re adding the latlng points of your geojson, and then the style elements.
+</p>
+
+	<img src="pictures/week7/style3.png">
+</section>
+
+<section> 
+	<img src="pictures/week7/style5.png" >
+</section>
+
+<section> 
+	<img src="pictures/week7/style6.png" >
+</section>
+
+<section> 
+	<p>Check-in</p>
+	<p style = "font-size: 24px">What is going on between all these parentheses, brackets, and commas? </p>
+	<ol>
+	<li style = "font-size: 16px">Calls the geojson data
+</li>
+	<li style = "font-size: 16px">Loads the geojson data
+</li>
+	<li style = "font-size: 16px">Adds a function as a property to the data</li>
+	<li style = "font-size: 16px">Tells the function what to do: </li>
+	</ol>
+	<img src="pictures/week7/style7.png" >
+</section>
+
+<section> 
+	<p>Add a pop-up to your point</p>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> After our pointToLayer function, we will add another function: the onEachFeature function </p>
+	<p style = "font-size: 24px"> As implied by the name, the onEachFeature function will go through each feature in our geojson and do whatever we tell it to do </p>
+
+	<img src="pictures/week7/popup1.png">
+</section>
+
+<section> 
+	<p>Questions?</p>
+</section>
+
+</div>
+</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
