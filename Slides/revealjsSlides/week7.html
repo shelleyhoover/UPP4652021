@@ -305,21 +305,10 @@
 </section>
 
 <section> 
+	<p> Example 1 </p>
 	<ul>
 		<li style = "font-size: 24px"><b> IF </b> the day care serves children under 3, then make the circle blue </li>
 		<li style = "font-size: 24px"><b> ELSE </b> make the circle red </li> 
-	</ul>
-</section>
-
-<section> 
-	<ul>
-		<li style = "font-size: 24px"><b> IF </b> the daycare costs less than $200 per month, make the circle very light green
- </li>
-		<li style = "font-size: 24px"><b> ELSE IF </b> the day care costs more than $200, but less than $400, make the circle light green </li>
-		<li style = "font-size: 24px"><b> ELSE IF </b> the day care costs more than $400, but less than $600, make the circle med. green </li>
-		<li style = "font-size: 24px"><b> ELSE IF </b> the day care costs more then $600, but less than $800, make the circle dark green </li>
-		<li style = "font-size: 24px"><b> ELSE </b> make the circle very dark green 
- </li> 
 	</ul>
 </section>
 
@@ -473,6 +462,70 @@
 	</ul>
 </section>
 
+<section> 
+	<p> Example 2 </p>
+	<p>Using polygon geojson – Chicago Neighborhood Hardship Index</p>
+	<ul>
+		<li style = "font-size: 24px"><b> IF </b> hardship > 80, then make the polygon very dark green </li>
+		<li style = "font-size: 24px"><b> ELSE IF </b> hardship > 60, then make the polygon dark green </li>
+		<li style = "font-size: 24px"><b> ELSE IF </b> hardship > 40, then make the polygon medium green </li>
+		<li style = "font-size: 24px"><b> ELSE IF </b> hardship > 40, then make the polygon light green </li>
+		<li style = "font-size: 24px"><b> ELSE IF </b> hardship > 20, then make the polygon very light green </li>
+		<li style = "font-size: 24px"><b> ELSE </b> none of the above, make the polygon gray
+ </li> 
+	</ul>
+</section>
+
+<section> 
+	<p> Step 1</p>
+	<p style = "font-size: 24px"> Add the GeoJSON to HTML File </p>
+	<img src="pictures/week7/cs7.png">
+	<p style = "font-size: 16px"> Annoying thing: Ajax has weird callback rules with data ordering. It reads vector layers with equal weight – meaning when you upload your HTML it will randomly order layers.  <br> Easy fix: .bringToBack() method  </p>
+	<img src="pictures/week7/cs8.png">
+</section>
+
+<section> 
+	<img src="pictures/week7/cs9.png">
+</section>
+
+
+<section> 
+	<p> Steps 2 & 3</p>
+	<ul>
+	<p style = "font-size: 24px"> Step 2: Add Style Function</p>
+	<li style = "font-size: 24px"> We do not need to convert markers to circles, so we can simply start with style: </li>
+	<p style = "font-size: 24px"> Step 3: Add variables</p>
+	<li style = "font-size: 24px"><b>conditionalColor</b> to store the color that will change depending on the property</li>
+	<li style = "font-size: 24px"><b>hardship</b> to store the property we are testing</li>
+	</ul>
+	<img src="pictures/week7/cs10.png">
+</section>
+
+<section> 
+	<p> Steps 4: Add Conditions</p>
+	<p style = "font-size: 20px"> I know from the data that the neighborhoods are ranked from 1-100 (100 with the highest hardship), so I have decided to create 6 groups and use the greater than ( > ) operator to split them up  </p>
+	<p style = "font-size: 16px"><a href = 'https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3' target = 'blank'> Color Brewer is a helpful tool for color selection </a></p>
+	<img src="pictures/week7/cs11.png">
+</section>
+
+<section> 
+	<p> Steps 4: Add Conditions, continued</p>
+	<p style = "font-size: 20px"> Add the conditions to your object, and return the style for the layer </p>
+	<img src="pictures/week7/cs12.png">
+</section>
+
+<section> 
+	<p> Steps 5: <br>Add an onEachFeature function to add pop-ups</p>
+	<img src="pictures/week7/cs13.png">
+</section>
+
+<section> 
+	<img src="pictures/week7/finalmap.png">
+</section>
+
+<section> 
+	<p><a href = 'https://shelleyhoover.github.io/UPP4652021/#/Lessons/Lesson7?id=assignment' target = 'blank'> Project 2 </a></p>
+</section>
 
 <section> 
 	<p>Questions?</p>
