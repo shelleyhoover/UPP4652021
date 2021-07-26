@@ -12,31 +12,27 @@
 **Due:  August 4, 6pm**
 
 **Objective:** 
-- ontinue working with Leaflet & JavaScript by adding & manipulating GeoJSON data.  Final product will be a detailed, interactive Leaflet map.  
-- I have uploaded the JavaScript code covered in the class repository [*here.*](https://github.com/shelleyhoover/upp465example/tree/master/week6)
+- Continue working with Leaflet & JavaScript by adding & manipulating GeoJSON data.  Final product will be a detailed, interactive Leaflet map.  
+- I have uploaded the JavaScript code covered in the class repository [*here.*](https://github.com/shelleyhoover/upp465example/tree/master/week7)
   - Index.html has my final leaflet map for reference. While I expect you to reference it, do not copy/paste
 from my file to yours. Take the time to rewrite the code and make it your own, it will help you understand
 how it all works together.
 
-Links (also referenced below)
-- [Leaflet: Copy & paste Leaflet CSS & JS into head of HTML file](https://leafletjs.com/examples/quick-start/)
-- [Basemap: Copy & paste into head of HTML file](https://github.com/leaflet-extras/leaflet-providers)
-- [Basemap: Copy & Paste Plain JavaScript into the script section of html file](https://leaflet-extras.github.io/leaflet-providers/preview/)
-
 **Deliverables:** 
+2-minute overview of your map during Week 8's Class
 Document uploaded to blackboard including: 
 - Link to github webpage  [Example](https://shelleyhoover.github.io/upp465example/)
 - Link to github project repository [Example](https://github.com/shelleyhoover/upp465example)
 - Screenshot of final webpage
 
 **Website should have:** 
-- Introductory text to map (can be same as HW3)
-- Leaflet map with tile layer & geometry features added: points (marker or circle), lines, and or
-polygons.
-  - Add at least four features
-  - At least one of each type (point, line, and polygon)
-  - Style each feature (Except markers, you can leave the default Leaflet styling.)
-  - Add pop-ups for each feature
+- Title & Introductory text to map (be sure this makes sense with whatever data you are using) 
+- Leaflet map, including:
+  - Tile Layer (Basemap)  
+  - At least one GeoJSON file
+  - GeoJSON styling should have a conditional element (if/else) 
+  	- If you add multiple GeoJSON files, only one file requires the conditional style.  
+  - Add pop-ups for GeoJSON
 
 **Github Repository should have:**
 - README file introducing project (add additional info from HW3)
