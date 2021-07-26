@@ -19,11 +19,11 @@ from my file to yours. Take the time to rewrite the code and make it your own, i
 how it all works together.
 
 **Deliverables:** 
-2-minute overview of your map during Week 8's Class
-Document uploaded to blackboard including: 
-- Link to github webpage  [Example](https://shelleyhoover.github.io/upp465example/)
-- Link to github project repository [Example](https://github.com/shelleyhoover/upp465example)
-- Screenshot of final webpage
+- 2-minute overview of your map during Week 8's Class
+- Document uploaded to blackboard including: 
+  - Link to github webpage  [Example](https://shelleyhoover.github.io/upp465example/)
+  - Link to github project repository [Example](https://github.com/shelleyhoover/upp465example)
+  - Screenshot of final webpage
 
 **Website should have:** 
 - Title & Introductory text to map (be sure this makes sense with whatever data you are using) 
