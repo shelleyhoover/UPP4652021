@@ -10,6 +10,7 @@
 ## Helpful Resources
 - [GeoJSON](https://geojson.org/)
 - [Style properties in Leaflet](https://leafletjs.com/reference-1.6.0.html#path)
+- [HTML Formatting](https://www.w3schools.com/html/html_formatting.asp)
 
 ## Convert Shapefiles to GeoJSON in Arc & Q
 - [Convert Shapefile to JSON (extra step to GeoJSON) in ArcDesktop - Step by step](https://pro.arcgis.com/en/pro-app/latest/tool-reference/conversion/features-to-json.htm)

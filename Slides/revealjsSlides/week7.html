@@ -247,6 +247,234 @@
 </section>
 
 <section> 
+	<p style = "font-size: 24px"> After the pointToLayer function, add another function "onEachFeature" with the parameters (feature, Layer) </p>
+	<img src="pictures/week7/popup2.png">
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> What is this function going to do onEachFeature? Tell it! </p>
+	<p style = "font-size: 24px"> layer.bindPopup() </p>
+	<img src="pictures/week7/popup3.png">
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Pop-up what?  In the parentheses of bindPopup, use the name of the property you want to call </p>
+	<p style = "font-size: 24px"> feature.properties.Property You want to Add </p>
+	<img src="pictures/week7/popup4.png">
+</section>
+
+<section> 
+	<img src="pictures/week7/popup5.png">
+</section>
+
+<section> 
+	<img src="pictures/week7/popup6.png">
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Add additional info to popup</p>
+	<img src="pictures/week7/popup7.png">
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Add more info & Style</p>
+	<img src="pictures/week7/popup8.png">
+</section>
+
+<section> 
+	<p>What if we want to change the style depending on the property?</p>
+</section>
+
+<section> 
+	<ul>
+		<p style = "font-size: 24px"> For example: </p>
+	<li style = "font-size: 24px">Blue points for daycares that serve children under the age of 3, </li>
+	<li style = "font-size: 24px">Red points for daycares that do not serve children under the age of 3. </li>  
+	<p style = "font-size: 24px"> Or </p>
+	<li style = "font-size: 24px">Darker colors the more expensive a daycare is. </li> 
+	</ul>
+</section>
+
+<section> 
+	<p>JavaScript if/else statements</p>
+	<ul>
+		<li style = "font-size: 24px"><b> IF </b> the statement is true, execute the code (if) </li>
+		<li style = "font-size: 24px"><b> OR </b> if this other statement is true, do this other thing (else if) </li>
+		<li style = "font-size: 24px"><b> IF NEITHER </b> statement above is true, execute this other code (else) </li> 
+	</ul>
+</section>
+
+<section> 
+	<ul>
+		<li style = "font-size: 24px"><b> IF </b> the day care serves children under 3, then make the circle blue </li>
+		<li style = "font-size: 24px"><b> ELSE </b> make the circle red </li> 
+	</ul>
+</section>
+
+<section> 
+	<ul>
+		<li style = "font-size: 24px"><b> IF </b> the daycare costs less than $200 per month, make the circle very light green
+ </li>
+		<li style = "font-size: 24px"><b> ELSE IF </b> the day care costs more than $200, but less than $400, make the circle light green </li>
+		<li style = "font-size: 24px"><b> ELSE IF </b> the day care costs more than $400, but less than $600, make the circle med. green </li>
+		<li style = "font-size: 24px"><b> ELSE IF </b> the day care costs more then $600, but less than $800, make the circle dark green </li>
+		<li style = "font-size: 24px"><b> ELSE </b> make the circle very dark green 
+ </li> 
+	</ul>
+</section>
+
+<section> 
+	<p> Step 1</p>
+	<p style = "font-size: 24px"> Before your function with your style properties, create two variables: </p>
+	<ul>
+		<li style = "font-size: 24px"><b> var agesColor;  </b> currently has no value. we will assign a value when we write the conditions
+ </li>
+		<li style = "font-size: 24px"><b> var agesServed; </b> this is set the property we want to test (ages_0_3) 
+ </li> 
+ <p style = "font-size: 16px"><em> Note: agesColor & ageServed can be named anything. </em> </p> 
+	</ul>
+	<img src="pictures/week7/cs1.png">
+</section>
+
+<section> 
+	<img src="pictures/week7/cs2.png">
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> A quick look at the data before we continue:</p>
+	<p style = "font-size: 24px"> The data is stored as a string with the values "true", "false", or Null(no value) </p>
+	<p style = "font-size: 24px"> Sometimes true or false is a primitive value called a Boolean and the syntax will be slightly different. Don't worry about it now. </p>
+	<img src="pictures/week7/cs3.png" height = 300>
+</section>
+
+<section> 
+	<p> Step 2</p>
+	<p style = "font-size: 24px"> Add the conditions to your agesServed variable </p>
+	<ul>
+		<li style = "font-size: 24px"><b> if (agesServed == “true” )  </b> </li>
+		<li style = "font-size: 24px"><b> else agesColor = “red”  </b> </li> 
+ <p style = "font-size: 16px"><em> The syntax is saying: <br>
+		If the property in agesServed is equal to “true”, then the variable agesColor value is blue. <br>
+		If the property is anything but “true”, then agesColor value is red.  <br>
+		Notice the == versus =, I will cover in a couple of slides <br></em> </p> 
+	</ul>
+	<img src="pictures/week7/cs4.png">
+</section>
+
+<section> 
+	<p> Step 3</p>
+	<p style = "font-size: 24px"> Change the style fillColor to your variable agesColor </p>
+	<ul>
+		<li style = "font-size: 24px"><b> fillColor: agesColor </b> </li>
+ <p style = "font-size: 16px"><em> The syntax is saying: <br>
+		fillColor is whatever the value of agesColor is.  <br>
+		The value of agesColor will change depending on the property of agesServed. </em>  </p> 
+	</ul>
+	<img src="pictures/week7/cs5.png">
+</section>
+
+<section> 
+	<img src="pictures/week7/cs6.png">
+</section>
+
+<section> 
+	<p>So what's up with = versus == ?</p>
+	<ul>
+	<p style = "font-size: 24px"> Single = is the assignment operator </p>
+	<p style = "font-size: 24px"><em> var example = “I assigned the variable example to this string” 
+ </em> </p>
+	<p style = "font-size: 24px"> Double == asks JavaScript to compare two values
+</p>
+	<p style = "font-size: 24px"><em> Does this features value for Ages_0_3 equal “true” ?
+ </em> </p>
+	</ul>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Comparison Operators </p>
+					<table>
+						<tbody>
+							<tr><th style = "font-size: 16px"><b>==</b></th>
+								<td>
+								<p style = "font-size: 16px">Equal to </p> 
+								</td>
+							</tr>
+
+							<tr><th style = "font-size: 16px"><b>!=</b></th>
+								<td>
+								<p style = "font-size: 16px">Not equal to </p> 
+								</td>
+							</tr>
+
+							<tr><th style = "font-size: 16px"><b>&lt;</b></th>
+								<td>
+								<p style = "font-size: 16px">Greater than </p> 
+								</td>
+							</tr>
+
+							<tr><th style = "font-size: 16px"><b>&gt;</b></th>
+								<td>
+								<p style = "font-size: 16px">Less than </p> 
+								</td>
+							</tr>
+
+							<tr><th style = "font-size: 16px"><b>&lt;=</b></th>
+								<td>
+								<p style = "font-size: 16px">Greater than or equal to </p> 
+								</td>
+							</tr>
+
+							<tr><th style = "font-size: 16px"><b>&gt;</b></th>
+								<td>
+								<p style = "font-size: 16px">Less than or equal to </p> 
+								</td>
+							</tr>
+
+						</tbody>
+					</table>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Logical Operators </p>
+	<p style = "font-size: 24px"><em> If the daycare serves children under 3 && costs less than $200/month, then the circle should be blue </em> </p>
+					<table>
+						<tbody>
+							<tr><th style = "font-size: 16px"><b>&&</b></th>
+								<td>
+								<p style = "font-size: 16px">And </p> 
+								</td>
+							</tr>
+
+							<tr><th style = "font-size: 16px"><b>||</b></th>
+								<td>
+								<p style = "font-size: 16px">Or </p> 
+								</td>
+							</tr>
+
+							<tr><th style = "font-size: 16px"><b>!</b></th>
+								<td>
+								<p style = "font-size: 16px">not </p> 
+								</td>
+							</tr>
+						</tbody>
+					</table>
+</section>
+
+<section> 
+	<p style = "font-size: 24px"> Note that these operators are asking true or false questions  </p>
+		<ul>
+		<p style = "font-size: 24px"> Does this feature’s value for Ages_0_3 equal “true” ?   </p>
+		<li style = "font-size: 24px">True, then make the circle for this feature blue</li> 
+		<li style = "font-size: 24px">False, then make the circle for this feature red </li> 
+ <p style = "font-size: 24px"> Does the daycare serve children under three AND cost less than $200/month? 
+ </p>
+ 		<li style = "font-size: 24px"> True, then make the circle for this feature blue   </li>
+		<li style = "font-size: 24px">False, then make the circle for this feature red</li> 
+	</ul>
+</section>
+
+
+<section> 
 	<p>Questions?</p>
 </section>
 
