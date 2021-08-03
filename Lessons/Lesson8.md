@@ -1,7 +1,7 @@
 <!-- .slide: data-background="./Images/header.svg" data-background-repeat="none" data-background-size="40% 40%" data-background-position="center 10%" class="header" -->
 # Week 8
 
-## [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week7.html)
+## [**Slides**](https://shelleyhoover.github.io/UPP4652021/Slides/revealjsSlides/week8.html)
 
 ## Assignment
 
