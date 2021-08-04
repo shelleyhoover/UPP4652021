@@ -5,7 +5,7 @@
 
 ## Assignment
 
-Course Review (in class)
+[Course Review (in class)](https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=2243)
 
 # Thanks for a great class, everyone! Enjoy the rest of your summer!
 
