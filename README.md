@@ -2,7 +2,7 @@
 template from: https://github.com/Make-School-Courses/Syllabus-Template -->
 
 # Web GIS - UPP 465 2021
-# Instructor - Shelley Hoover
+** Instructor Shelley Hoover ** 
 
 ## Course Description
 Web GIS is a popular term commonly used to refer to "online maps". While professional definitions are usually much more technical, "online maps" is a good starting point.
