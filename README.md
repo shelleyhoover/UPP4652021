@@ -2,7 +2,6 @@
 template from: https://github.com/Make-School-Courses/Syllabus-Template -->
 
 # Web GIS - UPP 465 2021
-** Instructor Shelley Hoover ** 
 
 ## Course Description
 Web GIS is a popular term commonly used to refer to "online maps". While professional definitions are usually much more technical, "online maps" is a good starting point.
@@ -13,7 +12,7 @@ We will also survey crowdsourced mapping tools such as Open Street Maps, as well
 
 ## Prerequisites:  
 
-Students are expected to have basic familiarity with GIS terms and concepts prior to taking this course. Students with no previous GIS exposure have been successful in the course with additional work.  
+Students are expected to have basic familiarity with GIS terms and concepts prior to taking this course. Students with no previous GIS exposure have been successful in the course with additional work.  If you have no prior GIS experience, please contact the instructor (Shelley Hoover). 
 
 Students are not expected to have any prior programming knowledge and will learn the basics of HTML, CSS, and JavaScript in the course.  
 
